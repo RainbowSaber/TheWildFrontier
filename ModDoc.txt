@@ -19,7 +19,7 @@ BetterMineshafts-Forge
 SaveMyStronghold
 SereneSeasons
 Valhelsia
-TerraFirma
+TerraForged
 
 -----Tweaks
 VTweaks
@@ -53,12 +53,13 @@ ToolStats
 Toast-Control
 EnchantmentDescriptions
 Controlling
-Patchouli-1.16.4
 Borderless
 DynamicSurroundings
 Neat 1.7
 BackTools
 Neko's Enchanted Books
+SeamlessLoadingScreens
+CameraOverhaul
 
 -----Fixes
 AI-Improvements 
