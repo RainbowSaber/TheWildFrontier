@@ -1,0 +1,18 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "minecraft:block/andesite"
+  },
+  "layers": {
+    "solid": {
+      "parent": "minecraft:block/andesite"
+    },
+    "translucent": {
+      "parent": "osv:block/overlay",
+      "textures": {
+        "overlay": "osv:block/minecraft/dense_iron_ore_overlay"
+      }
+    }
+  }
+}

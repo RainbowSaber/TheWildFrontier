@@ -1,0 +1,19 @@
+{
+  blocks: {
+     # Attempts to generate any new ore sprites from the topmost resource
+     # pack. Not an ideal solution for many resource packs.
+    overlaysFromRP: false
+     # Indicates whether to enable shading in generated block models.
+    shadeOverlays: true
+     # Whether textures should use variable opacity to push and pull the
+     # background sprite.
+    enableShadedTextures: true
+     # Whether textures should be rendered with support for a full range
+     # of opacity. You may want to disable this if you're using shaders.
+    enableTransparency: true
+     # How much larger the overlay model is than the background model.
+     # Lower values may look better, but cause z-fighting.
+     # Range: 1.0 ~ 2.0
+    modelScale: 1.001
+  }
+}

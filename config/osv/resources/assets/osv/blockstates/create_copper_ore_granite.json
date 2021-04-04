@@ -1,0 +1,70 @@
+
+{
+  "variants":
+  {
+    "oxidization=7,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite_7"
+    },
+    "oxidization=7,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite_7"
+    },
+    "oxidization=5,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite_5"
+    },
+    "oxidization=5,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite_5"
+    },
+    "oxidization=6,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite_6"
+    },
+    "oxidization=6,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite_6"
+    },
+    "oxidization=3,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite_3"
+    },
+    "oxidization=3,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite_3"
+    },
+    "oxidization=4,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite_4"
+    },
+    "oxidization=4,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite_4"
+    },
+    "oxidization=1,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite_1"
+    },
+    "oxidization=1,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite_1"
+    },
+    "oxidization=2,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite_2"
+    },
+    "oxidization=2,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite_2"
+    },
+    "oxidization=0,dense=false":
+    {
+      "model": "osv:block/minecraft/create_copper_ore_granite"
+    },
+    "oxidization=0,dense=true":
+    {
+      "model": "osv:block/minecraft/dense_create_copper_ore_granite"
+    }
+  }
+}

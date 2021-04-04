@@ -240,7 +240,7 @@
 	Camera = true
 	"Color Runes" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Slime In A Bucket" = true
 	Trowel = true
@@ -492,7 +492,7 @@
 
 	[world.big_dungeon]
 		#The chance that a big dungeon spawn candidate will be allowed to spawn. 0.2 is 20%, which is the same as the Pillager Outpost.
-		"Spawn Chance" = 0.14
+		"Spawn Chance" = 0.3
 		"Loot Table" = "minecraft:chests/simple_dungeon"
 		"Max Rooms" = 10
 		"Chest Chance" = 0.5
@@ -516,7 +516,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 110
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
@@ -544,7 +544,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 110
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
@@ -572,7 +572,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 110
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
@@ -600,7 +600,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 110
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
@@ -628,7 +628,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 110
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
@@ -656,7 +656,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 110
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
@@ -684,7 +684,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 110
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
@@ -712,7 +712,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 40
+			"Max Y Level" = 60
 			#Allowed values: [0,)
 			"Horizontal Size" = 19
 			#Allowed values: [0,)
@@ -738,7 +738,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 58
 			#Allowed values: [0,255]
-			"Max Y Level" = 62
+			"Max Y Level" = 70
 			#Allowed values: [0,)
 			"Horizontal Size" = 20
 			#Allowed values: [0,)
@@ -895,7 +895,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 15
 			#Allowed values: [0,255]
-			"Max Y Level" = 50
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 60
 			#Allowed values: [0,)
@@ -937,7 +937,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 10
 			#Allowed values: [0,255]
-			"Max Y Level" = 20
+			"Max Y Level" = 35
 			#Allowed values: [0,)
 			"Horizontal Size" = 80
 			#Allowed values: [0,)
@@ -961,10 +961,10 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.8
+		"Chance Per Chunk" = 1.0
 		"Min Y" = 5
-		"Max Y" = 30
-		"Min Mob Count" = 5
+		"Max Y" = 60
+		"Min Mob Count" = 3
 		"Max Mob Count" = 8
 		"Enable Extra Loot Table" = true
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
@@ -1096,7 +1096,7 @@
 		"Speleothems Per Chunk" = 12
 		"Tries Per Chunk In Nether" = 4
 		"Speleothems Per Chunk In Nether" = 12
-		"Max Ylevel" = 55
+		"Max Ylevel" = 80
 
 		[world.speleothems.dimensions]
 			"Is Blacklist" = true
@@ -1127,7 +1127,7 @@
 			#Allowed values: [0,255]
 			"Min Height" = 20
 			#Allowed values: [0,255]
-			"Max Height" = 60
+			"Max Height" = 100
 			#Allowed values: [0,)
 			"Cluster Size" = 20
 			#Allowed values: [0,)
@@ -1141,7 +1141,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1181,7 +1181,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 42
 			#Allowed values: [0,)
@@ -1214,7 +1214,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1249,7 +1249,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1278,7 +1278,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1307,7 +1307,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1336,7 +1336,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1365,7 +1365,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1394,7 +1394,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1424,7 +1424,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 80
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1475,7 +1475,7 @@
 	[mobs.forgotten]
 		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
 		"Forgotten Spawn Rate" = 0.05
-		"Max Height For Spawn" = 20
+		"Max Height For Spawn" = 35
 
 	[mobs.foxhound]
 		#The chance coal will tame a foxhound
@@ -1527,7 +1527,7 @@
 				"Is Blacklist" = false
 
 	[mobs.stonelings]
-		"Max Y Level" = 24
+		"Max Y Level" = 40
 		"Enable Diamond Heart" = true
 		"Cautious Stonelings" = true
 		"Tamable Stonelings" = true
@@ -1552,7 +1552,7 @@
 				"Is Blacklist" = true
 
 	[mobs.toretoise]
-		"Max Y Level" = 32
+		"Max Y Level" = 50
 
 		[mobs.toretoise.dimensions]
 			"Is Blacklist" = false

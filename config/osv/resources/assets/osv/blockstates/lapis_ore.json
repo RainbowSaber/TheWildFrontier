@@ -1,0 +1,40 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/lapis_ore_stone"
+      },
+      {
+        "model": "osv:block/minecraft/lapis_ore_stone_mirrored"
+      },
+      {
+        "model": "osv:block/minecraft/lapis_ore_stone",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/lapis_ore_stone_mirrored",
+        "y": 180
+      }
+    ],
+    "dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_lapis_ore_stone"
+      },
+      {
+        "model": "osv:block/minecraft/dense_lapis_ore_stone_mirrored"
+      },
+      {
+        "model": "osv:block/minecraft/dense_lapis_ore_stone",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_lapis_ore_stone_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

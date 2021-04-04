@@ -1,0 +1,18 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "create:block/palettes/weathered_limestone/plain"
+  },
+  "layers": {
+    "solid": {
+      "parent": "create:block/weathered_limestone"
+    },
+    "translucent": {
+      "parent": "osv:block/overlay",
+      "textures": {
+        "overlay": "osv:block/minecraft/dense_iron_ore_overlay"
+      }
+    }
+  }
+}

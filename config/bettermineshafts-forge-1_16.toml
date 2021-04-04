@@ -1,14 +1,14 @@
 
 ["YUNG's Better Mineshafts"]
 	# Default: .003
-	"Mineshaft Spawn Rate" = 0.003
+	"Mineshaft Spawn Rate" = 0.008
 	# The lowest a mineshaft can spawn.
 	# Default: 17
-	"Minimum y-coordinate" = 17
+	"Minimum y-coordinate" = 19
 	# The highest the a mineshaft can spawn.
 	#     Be careful, setting this too high may make mineshafts poke through ocean floors.
 	# Default: 37
-	"Maximum y-coordinate" = 37
+	"Maximum y-coordinate" = 60
 
 	###########################################################################################################
 	## Spawn rates for various mineshaft parts and decorations.

@@ -10,7 +10,7 @@
 	campsite_min_y = 1
 	#The maximum y-level at which a campsite can generate
 	#Range: 0 ~ 255
-	campsite_max_y = 45
+	campsite_max_y = 68
 	#Whether to use wooden chests from other mods when generating campsites, may make it easier to distinguish them from mimics
 	use_modded_chests = true
 	#Probability for a container of a campsite to be replaced by a mimic

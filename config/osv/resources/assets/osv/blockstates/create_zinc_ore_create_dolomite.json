@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/create/create_zinc_ore_dolomite"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/create/dense_create_zinc_ore_dolomite"
+    }
+  }
+}

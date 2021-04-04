@@ -135,7 +135,7 @@
 		#
 		#Max length of rope available off a Rope Pulley.
 		#Range: > 1
-		maxRopeLength = 128
+		maxRopeLength = 192
 		#
 		#Maximum allowed distance of two coupled minecarts.
 		#Range: > 1

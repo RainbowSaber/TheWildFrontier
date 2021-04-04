@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/quark/emerald_ore_jasper"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/quark/dense_emerald_ore_jasper"
+    }
+  }
+}

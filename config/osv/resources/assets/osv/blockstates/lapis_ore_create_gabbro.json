@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/create/lapis_ore_gabbro"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/create/dense_lapis_ore_gabbro"
+    }
+  }
+}

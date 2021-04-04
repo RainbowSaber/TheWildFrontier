@@ -18,14 +18,14 @@
 	lavaBottleEnabled = true
 	#Maximum world y-level that blobfish can spawn at
 	#Range: 0 ~ 256
-	blobfishSpawnHeight = 38
+	blobfishSpawnHeight = 60
 	#Whether guster spawns are limited to when it is raining/thundering.
 	limitGusterSpawnsToWeather = true
 	#Whether all players should get an Animal Dictionary when joining the world for the first time.
 	giveBookOnStartup = false
 	#Maximum world y-level that cave centipedes can spawn at
 	#Range: 0 ~ 256
-	caveCentipedeSpawnHeight = 30
+	caveCentipedeSpawnHeight = 50
 	#Blacklist for items that mimicream cannot make a copy of. Ex: "minecraft:stone_sword", "alexsmobs:blood_sprayer"
 	mimicreamBlacklist = ["alexsmobs:blood_sprayer", "alexsmobs:hemolymph_blaster"]
 	#0 = no mungus biome transformation. 1 = mungus changes blocks, but not chunk's biome. 2 = mungus transforms blocks and biome of chunk.

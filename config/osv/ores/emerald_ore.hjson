@@ -1,0 +1,32 @@
+name: emerald_ore
+mod: minecraft
+block: {
+  location: emerald_ore
+  level: 2
+}
+texture: {
+  original: block/emerald_ore
+}
+recipe: {
+  result: emerald
+  xp: 1.0
+}
+loot: blocks/emerald_ore
+gen: [
+  {
+    height: [0, 180]
+    size: 1
+    count: 8
+    biomes: {
+      types: ["EXTREME_HILLS"]
+    }
+  }
+  {
+    height: [0, 80]
+    size: 3
+    count: 5
+    biomes: {
+      types: ["EXTREME_HILLS"]
+    }
+  }
+]

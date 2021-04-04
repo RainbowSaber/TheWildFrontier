@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/create/diamond_ore_gabbro"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/create/dense_diamond_ore_gabbro"
+    }
+  }
+}

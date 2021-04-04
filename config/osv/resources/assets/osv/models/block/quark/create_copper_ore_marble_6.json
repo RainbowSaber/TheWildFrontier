@@ -1,0 +1,18 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "quark:block/marble"
+  },
+  "layers": {
+    "solid": {
+      "parent": "quark:block/marble"
+    },
+    "translucent": {
+      "parent": "osv:block/overlay",
+      "textures": {
+        "overlay": "osv:block/create/oxidized/copper_ore_6_overlay_shaded"
+      }
+    }
+  }
+}

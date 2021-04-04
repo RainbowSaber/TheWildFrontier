@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/quark/iron_ore_slate"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/quark/dense_iron_ore_slate"
+    }
+  }
+}

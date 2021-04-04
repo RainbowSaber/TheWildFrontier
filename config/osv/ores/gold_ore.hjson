@@ -1,0 +1,27 @@
+name: gold_ore
+mod: minecraft
+block: {
+  location: gold_ore
+  level: 2
+}
+texture: {
+  original: block/gold_ore
+}
+recipe: {
+  result: gold_ingot
+  xp: 2.0
+  time: 200
+}
+loot: blocks/gold_ore
+gen: [
+  {
+    height: [0, 60]
+    size: 3
+    count: 6
+  }
+  {
+    height: [18, 32]
+    size: 11
+    count: 2
+  }
+]

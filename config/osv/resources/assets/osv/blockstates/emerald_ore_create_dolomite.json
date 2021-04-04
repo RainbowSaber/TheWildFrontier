@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/create/emerald_ore_dolomite"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/create/dense_emerald_ore_dolomite"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "minecraft:block/stone"
+  },
+  "layers": {
+    "solid": {
+      "parent": "minecraft:block/stone_mirrored"
+    },
+    "translucent": {
+      "parent": "osv:block/overlay",
+      "textures": {
+        "overlay": "osv:block/minecraft/emerald_ore_overlay_shaded"
+      }
+    }
+  }
+}

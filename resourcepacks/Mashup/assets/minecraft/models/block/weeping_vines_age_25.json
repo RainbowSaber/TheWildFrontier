@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "particle": "block/weeping_vines_age_25",
-    "cross": "block/weeping_vines_age_25"
-    }
-}

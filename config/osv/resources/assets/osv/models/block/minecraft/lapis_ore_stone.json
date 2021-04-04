@@ -1,0 +1,18 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "minecraft:block/stone"
+  },
+  "layers": {
+    "solid": {
+      "parent": "minecraft:block/stone"
+    },
+    "translucent": {
+      "parent": "osv:block/overlay",
+      "textures": {
+        "overlay": "osv:block/minecraft/lapis_ore_overlay_shaded"
+      }
+    }
+  }
+}

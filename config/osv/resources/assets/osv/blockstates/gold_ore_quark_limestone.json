@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/quark/gold_ore_limestone"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/quark/dense_gold_ore_limestone"
+    }
+  }
+}

@@ -1,3 +1,15 @@
+OreSpawn
+Iron: 1-128, Peak 60-90
+Coal  10-144, Peak 90-128
+Gold  1-32,  Peak 18-32
+Copper 20-80 Peak 45-55
+Zink 15-100  Peak 35-65
+Diamond 1-20
+Lapis   10-50  Peak 25-35
+Redstone 1-40  Peak 1-16
+
+Emerald Mountain
+
 -----Core Content
 Quark
 QuarkOddities 
@@ -33,6 +45,8 @@ ftb-chunks-1605.2.3-build.75.jar
 ftb-teams
 AlexMobs
 antiqueatlas
+StepUp
+Fire Spread Tweaks
 
 -----UI/Client
 BetterAdvancements

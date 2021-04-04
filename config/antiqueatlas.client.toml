@@ -38,7 +38,7 @@
 	#Time in seconds between two scans of the area.
 	#Higher value gives better performance.
 	#Range: 0.0 ~ 2.147483647E9
-	newScanInterval = 1.0
+	newScanInterval = 4.0
 	#Whether to rescan chunks in the area that have been previously mapped. This is useful in case of changes in coastline (including small ponds of water and lava), or if land disappears completely (for sky worlds).
 	#Disable for better performance.
 	doRescan = true
@@ -76,11 +76,11 @@
 	#Map's width in GUI pixels.
 	#Note that this will change with Minecraft's GUI scale configuration.
 	#Range: > 0
-	width = 232
+	width = 300
 	#Map's height in GUI pixels.
 	#Note that this will change with Minecraft's GUI scale configuration.
 	#Range: > 0
-	height = 163
+	height = 200
 
 [overlayAppearance]
 	#The size (in GUI pixels) of a map's tile.

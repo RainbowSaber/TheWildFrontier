@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/minecraft/coal_ore_diorite"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/minecraft/dense_coal_ore_diorite"
+    }
+  }
+}

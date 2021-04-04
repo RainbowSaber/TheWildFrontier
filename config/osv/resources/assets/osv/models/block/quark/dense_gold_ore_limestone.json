@@ -1,0 +1,18 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "quark:block/limestone"
+  },
+  "layers": {
+    "solid": {
+      "parent": "quark:block/limestone"
+    },
+    "translucent": {
+      "parent": "osv:block/overlay",
+      "textures": {
+        "overlay": "osv:block/minecraft/dense_gold_ore_overlay"
+      }
+    }
+  }
+}

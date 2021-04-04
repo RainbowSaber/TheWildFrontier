@@ -1,0 +1,18 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "create:block/palettes/natural_scoria"
+  },
+  "layers": {
+    "solid": {
+      "parent": "create:block/natural_scoria"
+    },
+    "translucent": {
+      "parent": "osv:block/overlay",
+      "textures": {
+        "overlay": "osv:block/minecraft/dense_gold_ore_overlay"
+      }
+    }
+  }
+}

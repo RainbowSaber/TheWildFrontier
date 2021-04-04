@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/create/coal_ore_limestone"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/create/dense_coal_ore_limestone"
+    }
+  }
+}

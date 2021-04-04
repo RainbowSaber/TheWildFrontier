@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/create/iron_ore_limestone"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/create/dense_iron_ore_limestone"
+    }
+  }
+}

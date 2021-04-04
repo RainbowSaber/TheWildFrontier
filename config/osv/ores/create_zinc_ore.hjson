@@ -1,0 +1,43 @@
+name: create_zinc_ore
+mod: create
+block: {
+  location: create:zinc_ore
+  material: IRON
+  resistance: 6
+  level: 2
+}
+texture: {
+  original: create:block/zinc_ore
+}
+recipe: {
+  result: create:zinc_ingot
+  xp: 0.1
+  time: 100
+}
+loot: create:blocks/zinc_ore
+gen: [
+  {
+    height: [ 15, 100 ]
+    count: 12
+    size: 6
+    stage: UNDERGROUND_ORES
+    blacklistBiomes: true
+    biomes: {
+      types: [
+        NETHER
+      ]
+    }
+  }
+  {
+    height: [ 35, 65 ]
+    count: 5
+    size: 14
+    stage: UNDERGROUND_ORES
+    blacklistBiomes: true
+    biomes: {
+      types: [
+        NETHER
+      ]
+    }
+  }
+]

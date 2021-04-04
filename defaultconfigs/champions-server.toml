@@ -28,7 +28,7 @@
 	#Format: [tier];[modid:name];[amount];[enchant(true/false)];[weight]
 	lootDrops = []
 	#Set to true to scale amount of loot drops from champions to tier if sourced from config
-	lootScaling = false
+	lootScaling = true
 
 [growth]
 	#The percent increase in health multiplied by the growth factor
@@ -36,7 +36,7 @@
 	healthGrowth = 0.4
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 0.4
+	attackGrowth = 0.35
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
 	armorGrowth = 1.8
@@ -48,7 +48,7 @@
 	knockbackResistanceGrowth = 0.05
 	#The increase in experience multiplied by the growth factor
 	#Range: > 0
-	experienceGrowth = 3
+	experienceGrowth = 4
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
 	explosionGrowth = 1.5

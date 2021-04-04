@@ -1,0 +1,27 @@
+name: redstone_ore
+mod: minecraft
+block: {
+  location: redstone_ore
+  level: 2
+  light: 9.0
+}
+texture: {
+  original: block/redstone_ore
+}
+recipe: {
+  result: redstone
+  xp: 0.7
+}
+loot: blocks/redstone_ore
+gen: [
+  {
+    height: [1, 42]
+    size: 5
+    count: 7
+  }
+  {
+    height: [1, 16]
+    size: 11
+    count: 8
+  }
+]

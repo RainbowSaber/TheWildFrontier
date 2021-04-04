@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/minecraft/diamond_ore_granite"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/minecraft/dense_diamond_ore_granite"
+    }
+  }
+}

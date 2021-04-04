@@ -1,0 +1,278 @@
+
+{
+  "variants":
+  {
+    "oxidization=7,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_7"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_7"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_7",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_7",
+        "y": 180
+      }
+    ],
+    "oxidization=7,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_7"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_7"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_7",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_7",
+        "y": 180
+      }
+    ],
+    "oxidization=5,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_5"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_5"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_5",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_5",
+        "y": 180
+      }
+    ],
+    "oxidization=5,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_5"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_5"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_5",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_5",
+        "y": 180
+      }
+    ],
+    "oxidization=6,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_6"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_6"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_6",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_6",
+        "y": 180
+      }
+    ],
+    "oxidization=6,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_6"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_6"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_6",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_6",
+        "y": 180
+      }
+    ],
+    "oxidization=3,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_3"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_3"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_3",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_3",
+        "y": 180
+      }
+    ],
+    "oxidization=3,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_3"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_3"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_3",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_3",
+        "y": 180
+      }
+    ],
+    "oxidization=4,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_4"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_4"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_4",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_4",
+        "y": 180
+      }
+    ],
+    "oxidization=4,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_4"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_4"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_4",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_4",
+        "y": 180
+      }
+    ],
+    "oxidization=1,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_1"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_1"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_1",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_1",
+        "y": 180
+      }
+    ],
+    "oxidization=1,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_1"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_1"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_1",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_1",
+        "y": 180
+      }
+    ],
+    "oxidization=2,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_2"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_2"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_2",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored_2",
+        "y": 180
+      }
+    ],
+    "oxidization=2,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_2"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_2"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_2",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored_2",
+        "y": 180
+      }
+    ],
+    "oxidization=0,dense=false":
+    [
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored"
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/create_copper_ore_stone_mirrored",
+        "y": 180
+      }
+    ],
+    "oxidization=0,dense=true":
+    [
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored"
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone",
+        "y": 180
+      },
+      {
+        "model": "osv:block/minecraft/dense_create_copper_ore_stone_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

@@ -11,7 +11,7 @@
 ["Biome Options"]
 	#Sealevel to set for Overworld (0 use default for World)
 	#Range: 0 ~ 256
-	"Overworld Sealevel Override" = 0
+	"Overworld Sealevel Override" = 100
 	#Dimension IDs where biome sounds will not be played
 	"Dimension Blacklist" = []
 
@@ -33,7 +33,7 @@
 	#Enable/disable Aurora processing
 	Auroras = true
 	#Enable/disable Firefly effect around plants
-	Fireflies = true
+	Fireflies = false
 	#Enable/disable Fountain Jets spraying
 	"Fountain Jets" = true
 	#Enable/disable Water Splash effects when water spills down
