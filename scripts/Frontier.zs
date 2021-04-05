@@ -69,8 +69,21 @@ val candleHold = <item:supplementaries:candle_holder>;
 val candle = <item:quark:white_candle>;
 val bracket = <item:create:metal_bracket>;
 craftingTable.removeRecipe(candleHold);
-craftingTable.addShaped("wf_candleHold", candleHold, [
+craftingTable.addShaped("wf_candlehold", candleHold, [
     [candle],
     [bracket]
 ]);
 
+val wheel = <item:astikorcarts:wheel>;
+val saddle = <item:minecraft:saddle>;
+val shaft = <item:create:shaft>;
+val stick = <item:minecraft:stick>;
+
+craftingTable.removeRecipe(wheel);
+craftingTable.addShaped("wf_wheel", wheel, [
+    [ironPlate, stick, ironPlate],
+    [stick, shaft, stick],
+    [ironPlate, stick, ironPlate]
+]);
+
+craftingTable.removeByName("farmersdelight:lead_from_rope");

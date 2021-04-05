@@ -25,37 +25,37 @@ val lanternIron = <item:minecraft:lantern>;
 val goldLantern = <item:charm:gold_lantern>;
 
 craftingTable.removeRecipe(lanternIron);
-craftingTable.addShaped("lanternIron", lanternIron * 4, [
+craftingTable.addShaped("lanterniron", lanternIron * 4, [
 	[paneGlass], [tallow], [plateIron]
 ]);
 
 craftingTable.removeRecipe(goldLantern);
-craftingTable.addShaped("goldLantern", goldLantern * 4, [
+craftingTable.addShaped("goldlantern", goldLantern * 4, [
     [paneGlass], [tallow], [plateGold]
 ]);
 
 craftingTable.removeRecipe(copperLantern);
-craftingTable.addShaped("copperLantern", copperLantern * 4, [
+craftingTable.addShaped("copperlantern", copperLantern * 4, [
     [paneGlass], [tallow], [plateCopper]
 ]);
 
 craftingTable.removeRecipe(redLantern);
-craftingTable.addShaped("redLantern", redLantern * 4, [
+craftingTable.addShaped("redlantern", redLantern * 4, [
     [paneGlass], [torchRed], [plateIron]
 ]);
 
 craftingTable.removeRecipe(soulLantern);
-craftingTable.addShaped("soulLantern", soulLantern * 4, [
+craftingTable.addShaped("soullantern", soulLantern * 4, [
     [paneGlass], [torchSoul], [plateIron]
 ]);
 
 craftingTable.removeRecipe(soulLanternG);
-craftingTable.addShaped("soulLanternG", soulLanternG * 4, [
+craftingTable.addShaped("soullanterng", soulLanternG * 4, [
     [paneGlass], [torchSoul], [plateGold]
 ]);
 
 craftingTable.removeRecipe(redLantern);
-craftingTable.addShaped("redLantern", redLantern * 4, [
+craftingTable.addShaped("redlantern", redLantern * 4, [
     [paneGlass], [torchRed], [plateIron]
 ]);
 
@@ -67,19 +67,19 @@ var glowDust = <item:minecraft:glowstone_dust>;
 var glowBlock = <item:minecraft:glowstone>;
 
 craftingTable.removeRecipe(lanternPaper);
-craftingTable.addShaped("lanternPaper", lanternPaper * 2, [
+craftingTable.addShaped("lanternpaper", lanternPaper * 2, [
 	[paper, bamboo, paper],
 	[paper, glowDust, paper],
 	[paper, bamboo, paper]
 ]);
 
 craftingTable.removeRecipe(lampRedstone);
-craftingTable.addShaped("lampRedstone", lampRedstone,[
+craftingTable.addShaped("lampredstone", lampRedstone,[
 		[framedGlass],
 		[glowBlock],
 		[torchRed]
 ]);
-craftingTable.addShaped("wf_unlitRedstone", lampRedstone, [
+craftingTable.addShaped("wf_unlitredstone", lampRedstone, [
         [<item:quark:lit_lamp>]
 ]);
 

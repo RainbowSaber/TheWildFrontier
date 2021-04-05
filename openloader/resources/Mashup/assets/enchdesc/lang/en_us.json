@@ -1,0 +1,11 @@
+{
+  "enchantment.betterstorage.unlocking.desc": "Has the ability to open more locks than those which were crafted from it. 100% chance to open an unechanted lock.",
+  "enchantment.betterstorage.trigger.desc": "Makes the chest emit a redstone signal when players try to open, break or unlock the chest without the correct key.",
+  "enchantment.betterstorage.lockpicking.desc": "Opens / Unlocks a locked block once, then decreases the enchantment level.",
+  "enchantment.betterstorage.morphing.desc": "Permanently changes the key into the one that would fit another lock.",
+  "enchantment.betterstorage.persistance.desc": "Makes the attached chest slower to break and more resistant to explosives.",
+  "enchantment.betterstorage.security.desc": "Offers protection against key enchantments.",
+  "enchantment.betterstorage.shock.desc": "Damages players trying to open, break or unlock the chest without the correct key.",
+  "vtweaks:lumbering.desc": "Allows one to cut down an entire tree in a single swing while sneaking.",
+  "vtweaks:imperishable.desc": "This enchantment prevents the equipment from being used when it only has 1 durability left."
+}

@@ -45,7 +45,7 @@
 	enableFeatherFallTweak = false
 	#Number of levels Lumbering costs to create in an anvil
 	#Range: 1 ~ 40
-	lumberingCost = 16
+	lumberingCost = 8
 	#Enable the Lumbering enchantment for Axes
 	enableLumbering = true
 

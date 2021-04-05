@@ -1,0 +1,705 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/ressource_pack_prompt.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uEBAD"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/1_hitpoint.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFB01"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/2_hitpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFB02"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/3_hitpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFB03"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/4_hitpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFB04"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/1_foodpoint.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA01"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/2_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA02"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/3_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA03"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/4_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA04"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/5_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA05"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/6_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA06"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/8_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA08"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/10_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA10"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/12_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA12"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/14_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA14"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/16_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA16"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/18_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA18"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/food/20_foodpoints.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uFA20"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/0_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB00"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/1_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB01"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/2_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB02"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/3_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB03"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/4_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB04"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/5_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB05"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/6_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB06"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/7_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB07"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/8_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB08"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/9_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB09"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/10_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB10"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/11_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB11"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/12_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB12"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/13_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB13"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/14_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB14"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/15_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB15"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/16_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB16"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/17_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB17"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/18_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB18"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/19_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB19"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/20_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB20"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/21_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB21"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/22_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB22"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/23_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB23"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/24_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB24"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/25_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB25"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/26_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB26"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/27_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB27"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/28_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB28"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/29_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB29"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/30_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB30"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/31_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB31"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/32_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB32"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/33_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB33"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/34_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB34"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/35_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB35"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/36_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB36"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/37_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB37"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/38_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB38"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/39_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB39"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hungry_bar/40_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uBB40"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/0_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA00"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/1_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA01"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/2_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA02"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/3_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA03"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/4_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA04"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/5_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA05"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/6_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA06"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/7_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA07"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/8_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA08"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/9_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA09"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/10_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA10"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/11_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA11"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/12_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA12"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/13_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA13"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/14_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA14"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/15_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA15"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/16_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA16"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/17_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA17"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/18_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA18"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/19_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA19"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/20_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA20"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/21_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA21"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/22_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA22"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/23_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA23"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/24_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA24"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/25_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA25"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/26_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA26"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/27_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA27"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/28_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA28"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/29_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA29"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/30_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA30"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/31_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA31"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/32_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA32"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/33_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA33"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/34_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA34"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/35_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA35"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/36_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA36"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/37_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA37"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/38_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA38"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/39_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA39"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom_gui/hunger_bar/40_food.png",
+            "ascent": -26,
+            "height": 9,
+            "chars": ["\uAA40"]
+        }
+
+    ]
+}

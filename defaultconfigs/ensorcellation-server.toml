@@ -303,12 +303,12 @@
 		#If TRUE, the Soulbound Enchantment is available.
 		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
-		Treasure = false
+		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment. If permanent, this setting is ignored.
 		#Range: 1 ~ 10
 		"Max Level" = 3
 		#If TRUE, the Soulbound Enchantment is permanent (and will remove excess levels when triggered).
-		Permanent = false
+		Permanent = true
 
 	[Enchantments."Curse of Foolishness"]
 		#If TRUE, the Curse of Foolishness Enchantment is available for Helmets.

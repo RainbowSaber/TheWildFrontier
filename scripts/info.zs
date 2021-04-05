@@ -5,6 +5,29 @@ function i(m as IItemStack, s as string) as void {
 	JEI.addInfo(m, [s]);
 }
 
+// Stoos Tweaks
+i(<item:minecraft:shield>, "Shields have two stances available; when crouching, blocking damage stuns the player's movement speed for 1s, but allows them to retort quickly and make an attack of their own. This is a good option for counter-attacks, but leaves the player vulnerable. Meanwhile, blocking significant damage while uncrouched stuns the player's attack cooldown timer for 0.6s and knocks the player backwards, which is ideal for putting some distance between your attacker and yourself. Addtionally, blocking in this way deals less damage to the shield's durability.");
+
+// Enchantments Candles
+i(<item:minecraft:enchanting_table>, "By placing candles around the table you can influence the flow of magic. White - Storms, Orange - Inferno, Magenta - Arcane, LightBlue - Blizzard, Yellow - Greed, Lime - Force, Pink - Agility, Gray - Industry, LightGray - Pillaging, Cyan - Resilience, Purple - Ender, Blue - Tide, Brown - Beast, Green - Nature, Red - Vitality, Black - Evil");
+
+i(<item:quark:white_candle>, "This candle channels the power of the Storm. This causes Feather Falling, True Shot, Aerial Affinity, Projectile Protection and Channeling to appear more frequently");
+i(<item:quark:orange_candle>, "This candle channels the power of Inferno. This causes Fire Aspect, Fire Protection, Flame, Flaming Rebuke and Lavawaxed to appear more frequently");
+i(<item:quark:magenta_candle>, "This candle channels the power of the Arcane. This causes Infinity, Magic Protection and Sharpness to appear more frequently");
+i(<item:quark:light_blue_candle>, "This candle channels the power of the Blizzard. This causes Frost Rebuke, Frost Aspect and Silk Touch to appear more frequently");
+i(<item:quark:yellow_candle>, "This candle channels the power of Greed. This causes Luck, Fortune and Looting to appear more frequently");
+i(<item:quark:lime_candle>, "This candle channels the power of Force. This causes Knockback, Punch, Bulwark and Blast Protection to appear more frequently");
+i(<item:quark:pink_candle>, "This candle channels the power of Agility. This causes Quick Charge, Quick Draw, Sweeping, Riptide and Straddlejump to appear more frequently");
+i(<item:quark:gray_candle>, "This candle channels the power of Industry. This causes Efficiency, Piercing, Reach and Acquisition to appear more frequently");
+i(<item:quark:light_gray_candle>, "This candle channels the power of Pillaging. This causes Instigating, Multishot, Volley and Outlaw to appear more frequently.");
+i(<item:quark:cyan_candle>, "This candle channels the power of Resilience. This causes Unbreaking, Protection, Phalanx and Imperishable to appear more frequently.");
+i(<item:quark:purple_candle>, "This candle channels the power of the Ender. This causes End Disruption, Loyalty, Displacement and Board Return to appear more frequently.");
+i(<item:quark:blue_candle>, "This candle channels the power of the Tide. This causes Depth Strider, Lure, Impaling, Respiration and Aqua Affinity to appear more frequently.");
+i(<item:quark:brown_candle>, "This candle channels the power of Beasts. This causes Power, Cavalier, Bane of Arthropods and Serpentfriend to appear more frequently.");
+i(<item:quark:green_candle>, "This candle channels the power of Nature. This causes Thorns, Gourmand, Lumbering and Insight to appear more frequently.");
+i(<item:quark:red_candle>, "This candle channels the power of Vitality. This causes Leech, Vitality and Vigilante to appear more frequently.");
+i(<item:quark:black_candle>, "This candle channels the power of Evil. This causes Vorpal, Smite and Backstabbing to appear more frequently.");
+
 // Backpack
 i(<item:quark:backpack>, "When wearing this, you'll have 27 more inventory slots. You can even dye it to look fancy!");
 i(<item:quark:ravager_hide>, "This drops from Ravagers. Call in a raid to get them over.");

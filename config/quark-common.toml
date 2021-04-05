@@ -462,6 +462,9 @@
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
 
+	[tweaks.note_block_mob_sounds]
+		"Enable Vocaloid" = true
+
 [world]
 	"Big Dungeon" = true
 	"Big Stone Clusters" = true
@@ -1679,11 +1682,11 @@
 
 	[oddities.matrix_enchanting]
 		#The maximum enchanting power the matrix enchanter can accept
-		"Max Bookshelves" = 15
+		"Max Bookshelves" = 20
 		#Should this be X, the price of a piece increase by 1 every X pieces you generate
-		"Piece Price Scale" = 9
+		"Piece Price Scale" = 10
 		#The higher this is, the better enchantments you'll get on books
-		"Book Enchantability" = 12
+		"Book Enchantability" = 13
 		#How many pieces you can generate without any bookshelves
 		"Base Max Piece Count" = 3
 		#How many pieces you can generate without any bookshelves (for Books)
@@ -1695,9 +1698,9 @@
 		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
 		"Min Level Scale Factor" = 1.5
 		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
-		"Min Level Scale Factor Book" = 2.0
+		"Min Level Scale Factor Book" = 1.8
 		#How much to multiply the frequency of pieces where at least one of the same type has been generated
-		"Dupe Multiplier" = 1.4
+		"Dupe Multiplier" = 1.45
 		#How much to multiply the frequency of pieces where incompatible pieces have been generated
 		"Incompatible Multiplier" = 0.0
 		#Set to false to disable the ability to create Enchanted Books
@@ -1711,15 +1714,15 @@
 		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
 		"Allow Underwater Enchanting" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
-		"Disallowed Enchantments" = []
+		"Disallowed Enchantments" = ["charm:tinted", "charm:aerial_affinity", "betterstorage:unlocking", "betterstorage:lockpicking", "betterstorage:morphing", "betterstorage:persistance", "betterstorage:security", "betterstorage:shock", "betterstorage:trigger"]
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
-		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
+		"Influences List" = ["minecraft:feather_falling, ensorcellation:trueshot, minecraft:projectile_protection, charm:aerial_affinity, minecraft:channeling", "alexsmobs:lavawax, ensorcellation:fire_rebuke, minecraft:fire_aspect, minecraft:fire_protection, minecraft:flame", "ensorcellation:magic_protection, minecraft:infinity, minecraft:sharpness", "ensorcellation:frost_rebuke, minecraft:silk_touch, ensorcellation:frost_aspect", "minecraft:looting, minecraft:fortune, minecraft:luck_of_the_sea", "minecraft:knockback, minecraft:punch, ensorcellation:bulwark, minecraft:blast_protection", "minecraft:quick_charge, ensorcellation:quick_draw, minecraft:sweeping, minecraft:riptide, alexsmobs:straddle_jump", "minecraft:efficiency, charm:acquisition, minecraft:piercing, ensorcellation:reach", "ensorcellation:damage_villager, ensorcellation:instigating, minecraft:multishot, ensorcellation:volley", "minecraft:unbreaking, minecraft:protection, ensorcellation:phalanx, vtweaks:imperishable", "minecraft:loyalty, ensorcellation:displacement, alexsmobs:board_return, ensorcellation:damage_ender", "minecraft:depth_strider, minecraft:lure, minecraft:impaling, minecraft:respiration, minecraft:aqua_affinity", "minecraft:bane_of_arthropods, minecraft:power, ensorcellation:cavalier, alexsmobs:serpentfriend", "minecraft:thorns, ensorcellation:gourmand, ensorcellation:exp_boost, vtweaks:lumbering", "ensorcellation:leech, ensorcellation:vitality, ensorcellation:damage_illager", "minecraft:smite, ensorcellation:vorpal, farmersdelight:backstabbing"]
 		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
 		"Allow Influencing" = true
 		#The max amount of candles that can influence a single enchantment
-		"Influence Max" = 4
+		"Influence Max" = 6
 		#How much each candle influences an enchantment. This works as a multiplier to its weight
-		"Influence Power" = 0.125
+		"Influence Power" = 1.5
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.

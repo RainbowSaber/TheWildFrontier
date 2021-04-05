@@ -1,0 +1,70 @@
+		"Influences List" = [
+				"minecraft:feather_falling
+",
+				"minecraft:fire_protection",
+				"minecraft:knockback,minecraft:punch",
+				"minecraft:feather_falling",
+				"minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea",
+				"minecraft:blast_protection",
+				"minecraft:silk_touch,minecraft:channeling",
+				"minecraft:bane_of_arthropods",
+				"minecraft:protection",
+				"minecraft:respiration,minecraft:loyalty,minecraft:infinity",
+				"minecraft:sweeping,minecraft:multishot",
+				"minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge",
+				"minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide",
+				"minecraft:thorns,minecraft:piercing",
+				"minecraft:fire_aspect,minecraft:flame",
+				"minecraft:smite,minecraft:projectile_protection"]
+
+				[
+				"minecraft:feather_falling, ensorcellation:trueshot, minecraft:projectile_protection, ensorcellation:air_affinity, minecraft:channeling",
+				"alexsmobs:lavawax, ensorcellation:fire_rebuke, minecraft:fire_aspect, minecraft:fire_protection, minecraft:flame",
+				"ensorcellation:magic_protection, minecraft:infinity, minecraft:sharpness",
+				"ensorcellation:frost_rebuke, minecraft:silk_touch, ensorcellation:frost_aspect",
+				"minecraft:looting, minecraft:fortune, minecraft:luck_of_the_sea",
+				"minecraft:knockback, minecraft:punch, ensorcellation:bulwark, minecraft:blast_protection",
+				"minecraft:quick_charge, ensorcellation:quick_draw, minecraft:sweeping, minecraft:riptide, alexsmobs:straddle_jump",
+				"minecraft:efficiency, charm:acquisition, minecraft:piercing, ensorcellation:reach",
+				"ensorcellation:damage_villager, ensorcellation:instigating, minecraft:multishot, ensorcellation:volley",
+				"minecraft:unbreaking, minecraft:protection, ensorcellation:phalanx, vtweaks:imperishable",
+				"minecraft:loyalty, ensorcellation:displacement, alexsmobs:board_return, ensorcellation:damage_ender",
+				"minecraft:depth_strider, minecraft:lure, minecraft:impaling, minecraft:respiration, minecraft:aqua_affinity",
+				"minecraft:bane_of_arthropods, minecraft:power, ensorcellation:cavalier, alexsmobs:serpentfriend",
+				"minecraft:thorns, ensorcellation:gourmand, ensorcellation:exp_boost, vtweaks:lumbering",
+				"ensorcellation:leech, ensorcellation:vitality, ensorcellation:damage_illager",
+				"minecraft:smite, ensorcellation:vorpal, farmersdelight:backstabbing"
+				]
+
+##Meh
+betterstorage:unlocking
+betterstorage:lockpicking
+betterstorage:morphing
+betterstorage:persistance
+betterstorage:security
+betterstorage:shock
+betterstorage:trigger
+
+##Treasure
+ensorcellation:magic_edge
+ensorcellation:excavating
+ensorcellation:hunter
+ensorcellation:angler
+ensorcellation:pilfering
+minecraft:frost_walker
+minecraft:soul_speed
+minecraft:mending
+
+ensorcellation:soulbound
+##Curse
+ensorcellation:curse_fool
+ensorcellation:curse_mercy
+minecraft:vanishing_curse
+minecraft:binding_curse
+
+##Disabled
+charm:aerial_affinity
+charm:tinted
+ensorcellation:furrowing
+ensorcellation:tilling
+ensorcellation:weeding
