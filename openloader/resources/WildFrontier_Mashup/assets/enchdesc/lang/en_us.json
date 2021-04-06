@@ -7,5 +7,6 @@
   "enchantment.betterstorage.security.desc": "Offers protection against key enchantments.",
   "enchantment.betterstorage.shock.desc": "Damages players trying to open, break or unlock the chest without the correct key.",
   "vtweaks:lumbering.desc": "Allows one to cut down an entire tree in a single swing while sneaking.",
-  "vtweaks:imperishable.desc": "This enchantment prevents the equipment from being used when it only has 1 durability left."
+  "vtweaks:imperishable.desc": "This enchantment prevents the equipment from being used when it only has 1 durability left.",
+  "enchantment.passablefoliage.leaf_walker.desc": "Allows one to walk on leaves without breaking trough."
 }

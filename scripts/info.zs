@@ -28,8 +28,8 @@ i(<item:quark:light_gray_candle>, "This candle channels the power of Pillaging. 
 i(<item:quark:cyan_candle>, "This candle channels the power of Resilience. This causes Unbreaking, Protection, Phalanx and Imperishable to appear more frequently.");
 i(<item:quark:purple_candle>, "This candle channels the power of the Ender. This causes End Disruption, Loyalty, Displacement and Board Return to appear more frequently.");
 i(<item:quark:blue_candle>, "This candle channels the power of the Tide. This causes Depth Strider, Lure, Impaling, Respiration and Aqua Affinity to appear more frequently.");
-i(<item:quark:brown_candle>, "This candle channels the power of Beasts. This causes Power, Cavalier, Bane of Arthropods and Serpentfriend to appear more frequently.");
-i(<item:quark:green_candle>, "This candle channels the power of Nature. This causes Thorns, Gourmand, Lumbering and Insight to appear more frequently.");
+i(<item:quark:brown_candle>, "This candle channels the power of Beasts. This causes Power, Lightweight, Cavalier, Bane of Arthropods and Serpentfriend to appear more frequently.");
+i(<item:quark:green_candle>, "This candle channels the power of Nature. This causes Thorns, Leaf Walker, Gourmand, Lumbering and Insight to appear more frequently.");
 i(<item:quark:red_candle>, "This candle channels the power of Vitality. This causes Leech, Vitality and Vigilante to appear more frequently.");
 i(<item:quark:black_candle>, "This candle channels the power of Evil. This causes Vorpal, Smite and Backstabbing to appear more frequently.");
 
