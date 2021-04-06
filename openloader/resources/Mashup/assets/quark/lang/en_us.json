@@ -1,0 +1,20 @@
+{
+	"block.quark.limestone": "Shale",
+	"block.quark.polished_limestone": "Polished Shale",
+	"block.quark.limestone_stairs": "Shale Stairs",
+	"block.quark.polished_limestone_stairs": "Polished Shale Stairs",
+	"block.quark.limestone_slab": "Shale Slab",
+	"block.quark.polished_limestone_slab": "Polished Shale Slab",
+	"block.quark.limestone_vertical_slab": "Shale Vertical Slab",
+	"block.quark.polished_limestone_vertical_slab": "Polished Shale Vertical Slab",
+	"block.quark.limestone_bricks_vertical_slab": "Polished Shale Brick Vertical Slab",
+	"block.quark.limestone_wall": "Shale Wall",
+	"block.quark.limestone_speleothem": "Shale Speleothem",
+	"block.quark.limestone_bricks": "Polished Shale Bricks",
+	"block.quark.limestone_pavement": "Shale Pavement",
+	"block.quark.chiseled_limestone_bricks": "Chiseled Shale Bricks",
+	"block.quark.limestone_bricks_stairs": "Polished Shale Brick Stairs",
+	"block.quark.limestone_bricks_slab": "Polished Shale Brick Slab",
+	"block.quark.limestone_bricks_wall": "Polished Shale Brick Wall",
+	"block.quark.limestone_pillar": "Shale Pillar"
+}

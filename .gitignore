@@ -13,3 +13,8 @@
 /.curseclient
 /usercache.json
 /dumps/
+/global_resource_packs/
+/global_data_packs_/
+/crash-reports/
+/saves/
+/screenshots/

@@ -5,6 +5,11 @@ function i(m as IItemStack, s as string) as void {
 	JEI.addInfo(m, [s]);
 }
 
+//Modpacks Guide
+<item:minecraft:flint_and_steel>.addTooltip("Right click on glass to create a Mirror");
+i(<item:betterstorage:lock>, "Can be crafted using an existing key and Ingots. The Shape is as follows: [air, gold, air], [gold, key, gold], [gold, iron, gold]");
+i(<item:betterstorage:key>, "Using the key you can craft locks. Using those several items such as Reinforced Locker, Iron Doors and other Chests can be locked.");
+
 // Stoos Tweaks
 i(<item:minecraft:shield>, "Shields have two stances available; when crouching, blocking damage stuns the player's movement speed for 1s, but allows them to retort quickly and make an attack of their own. This is a good option for counter-attacks, but leaves the player vulnerable. Meanwhile, blocking significant damage while uncrouched stuns the player's attack cooldown timer for 0.6s and knocks the player backwards, which is ideal for putting some distance between your attacker and yourself. Addtionally, blocking in this way deals less damage to the shield's durability.");
 
