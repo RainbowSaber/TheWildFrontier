@@ -1,9 +1,6 @@
 /.idea/
 /.mixin.out/audit/
 /local/
-/resourcepacks/NewDefault+v1.39[MC1.15-1.16.5]/
-/resourcepacks/Stay_True_1.16 - Copy/
-/resourcepacks/Quark Programmer Art.zip
 /patchouli_data.json
 /imm_ptl_state.json
 /hs_err_pid5808.log
@@ -18,3 +15,5 @@
 /crash-reports/
 /saves/
 /screenshots/
+/logs/
+/backups/

@@ -1,5 +1,4 @@
 #loader contenttweaker
-
 import mods.contenttweaker.item.ItemBuilder;
 
 new ItemBuilder()
@@ -14,8 +13,3 @@ new ItemBuilder()
 new ItemBuilder()
     .withMaxStackSize(32)
     .build("donut_glazed");
-
-
-
-
-
