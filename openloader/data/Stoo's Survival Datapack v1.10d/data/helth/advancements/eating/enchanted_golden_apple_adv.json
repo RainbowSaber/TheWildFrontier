@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/specials/ate_enchanted_golden_apple"
+  },
+  "criteria": {
+    "ate_pumpkin_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_golden_apple"
+        }
+      }
+    }
+  }
+}

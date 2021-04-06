@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/lava_bucket",
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "advancements.story.form_obsidian.title"
+    },
+    "description": {
+      "text": "Pour water into a source of lava"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obsidian": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:lava"
+          },
+          "item": {
+            "item": "minecraft:water_bucket"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obsidian"
+    ]
+  ]
+}

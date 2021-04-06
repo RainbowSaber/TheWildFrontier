@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "helth:stoo/delicious/meatball_beef"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "suspicious_stew",
+          "nbt": "{Effects:[{EffectId:23,EffectDuration:1},{EffectId:11,EffectDuration:240}], CustomModelData:606, display:{Name:\"{\\\"text\\\":\\\"§r§dDelicious Beef Stew\\\"}\"}}"
+        }
+      }
+    }
+  }
+}

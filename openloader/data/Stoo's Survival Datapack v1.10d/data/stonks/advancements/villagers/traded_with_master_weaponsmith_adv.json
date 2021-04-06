@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\", level:5}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "stonks:villagers/traded_with_master_weaponsmith"
+  }
+}

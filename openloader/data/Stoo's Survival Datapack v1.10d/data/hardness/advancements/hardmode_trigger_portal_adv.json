@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use_lodestone": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:obsidian"
+          }
+        },
+        "item": {
+          "item": "minecraft:flint_and_steel"
+        }
+      }
+    }
+  },
+  "rewards": {
+      "function": "hardness:hardmode/triggered_portal"
+  }
+}

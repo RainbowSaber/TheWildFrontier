@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:husk",
+    "minecraft:spider",
+    "minecraft:hoglin",
+    "minecraft:piglin",
+    "minecraft:zoglin",
+    "minecraft:zombified_piglin",
+    "minecraft:blaze",
+    "minecraft:enderman",
+    "minecraft:wolf"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "helth:husbandry/mushroom_stew",
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "text": "We're Not In Favortown Anymore"
+    },
+    "description": {
+      "text": "Obtain a delicious (or suspicious) mushroom stew"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_mushroom_stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:suspicious_stew"
+          }
+        ]
+      }
+    }
+  }
+}

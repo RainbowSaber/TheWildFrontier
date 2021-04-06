@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_dried_kelp"
+  },
+  "criteria": {
+    "ate_cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:dried_kelp"
+        }
+      }
+    }
+  }
+}

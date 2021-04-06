@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "animoles:interactions/taming/tame_wolf"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  }
+}

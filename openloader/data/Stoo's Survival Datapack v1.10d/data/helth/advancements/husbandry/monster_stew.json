@@ -1,0 +1,24 @@
+{
+  "parent": "helth:husbandry/suspicious_stew",
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{CustomModelData:707}"
+    },
+    "title": {
+      "text": "Ew..."
+    },
+    "description": {
+      "text": "What even is this? What have you done??"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted_by_function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

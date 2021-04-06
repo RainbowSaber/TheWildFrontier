@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_golden_carrot"
+  },
+  "criteria": {
+    "ate_golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_carrot"
+        }
+      }
+    }
+  }
+}

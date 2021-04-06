@@ -1,0 +1,18 @@
+{
+  "rewards": {
+    "function": "helth:regen_experimental/hunger_triggers/hurt_by_husk"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "type": "minecraft:husk"
+          }
+        }
+      }
+    }
+  }
+}

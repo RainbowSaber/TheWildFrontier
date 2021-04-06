@@ -1,0 +1,1 @@
+advancement revoke @a only hardness:structures/entered_outpost_adv

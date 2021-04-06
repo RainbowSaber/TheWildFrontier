@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "hardness:structures/entered_outpost"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pillager_outpost"
+        }
+      }
+    }
+  }
+}

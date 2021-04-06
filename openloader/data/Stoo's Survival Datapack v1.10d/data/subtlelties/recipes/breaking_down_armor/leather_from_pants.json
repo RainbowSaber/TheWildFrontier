@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather_leggings"
+        }
+    },
+    "result": {
+        "item": "minecraft:leather",
+        "count": 2
+    },
+    "group": "leather_from_armor"
+}

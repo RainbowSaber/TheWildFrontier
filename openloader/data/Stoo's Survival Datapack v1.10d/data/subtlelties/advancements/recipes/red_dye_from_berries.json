@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "subtlelties:red_dye_from_berries"
+    ]
+  },
+  "criteria": {
+    "has_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sweet_berries"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "subtlelties:red_dye_from_berries"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_berries",
+      "has_the_recipe"
+    ]
+  ]
+}

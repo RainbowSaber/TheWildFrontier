@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "use_lodestone": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:jukebox"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+      "function": "subtlelties:playing_disc"
+  }
+}

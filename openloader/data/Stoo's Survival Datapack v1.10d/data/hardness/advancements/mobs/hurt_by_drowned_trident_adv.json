@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:drowned",
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:trident"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hardness:mobs/mob_hurt_player/hurt_by_drowned_trident"
+  }
+}

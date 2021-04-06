@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_honey_bottle"
+  },
+  "criteria": {
+    "ate_honey_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:honey_bottle"
+        }
+      }
+    }
+  }
+}

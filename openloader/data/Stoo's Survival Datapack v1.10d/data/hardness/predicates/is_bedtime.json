@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:weather_check",
+      "thundering": true
+    },
+    {
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 14100,
+        "max": 24000
+      },
+      "period": 24000
+    }
+  ]
+}

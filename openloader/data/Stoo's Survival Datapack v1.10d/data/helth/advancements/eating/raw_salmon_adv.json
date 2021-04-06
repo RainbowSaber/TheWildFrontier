@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_raw_salmon"
+  },
+  "criteria": {
+    "ate_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:salmon"
+        }
+      }
+    }
+  }
+}

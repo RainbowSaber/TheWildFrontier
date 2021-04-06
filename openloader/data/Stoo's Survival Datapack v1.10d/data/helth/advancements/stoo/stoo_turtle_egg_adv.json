@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "helth:stoo/stoo_turtle_egg"
+            }
+        }
+    },
+    "rewards": {
+        "function": "helth:stoo/stoo_turtle_egg"
+    }
+}

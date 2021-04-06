@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "animoles:interactions/taming/tame_donkey"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:donkey"
+        }
+      }
+    }
+  }
+}

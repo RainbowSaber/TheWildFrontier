@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "hardness:time/sleeping_night"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  }
+}

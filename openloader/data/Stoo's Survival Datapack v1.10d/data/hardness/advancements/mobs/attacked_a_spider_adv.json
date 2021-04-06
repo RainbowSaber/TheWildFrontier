@@ -1,0 +1,14 @@
+{
+  "rewards": {
+    "function": "hardness:mobs/player_hurt_mob/spider"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+        "entity": {
+          "type": "minecraft:spider"
+        }
+      }
+    }
+  }
+}

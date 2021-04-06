@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "helth:stoo/delicious/regular_netherwarped"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "suspicious_stew",
+          "nbt": "{Tags:[\"regular\"],Effects:[{EffectId:25,EffectDuration:100}]}"
+        }
+      }
+    }
+  }
+}

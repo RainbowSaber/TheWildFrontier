@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_raw_mutton"
+  },
+  "criteria": {
+    "ate_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:mutton"
+        }
+      }
+    }
+  }
+}

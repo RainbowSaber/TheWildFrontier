@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "helth:stoo/delicious/strong_netherwarped"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "suspicious_stew",
+          "nbt": "{Tags:[\"strong\"],Effects:[{EffectId:25,EffectDuration:105}]}"
+        }
+      }
+    }
+  }
+}

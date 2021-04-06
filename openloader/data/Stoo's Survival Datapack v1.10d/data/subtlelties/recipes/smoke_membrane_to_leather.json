@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "minecraft:phantom_membrane"
+    },
+    "result": "minecraft:leather",
+    "experience": 0.1,
+    "cookingtime": 100
+}

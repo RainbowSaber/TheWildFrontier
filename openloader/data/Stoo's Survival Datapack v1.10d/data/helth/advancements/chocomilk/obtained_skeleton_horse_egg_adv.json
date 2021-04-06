@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "player": {
+            "gamemode": "survival"
+          }
+        },
+        "items": [
+          {
+            "item": "minecraft:skeleton_horse_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "helth:chocomilk/_custom_crafting_safeguard"
+  }
+}

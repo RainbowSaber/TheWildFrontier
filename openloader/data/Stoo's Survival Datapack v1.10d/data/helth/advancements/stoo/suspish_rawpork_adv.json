@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "helth:stoo/suspish_rawpork"
+            }
+        }
+    },
+    "rewards": {
+        "function": "helth:stoo/suspish_rawpork"
+    }
+}

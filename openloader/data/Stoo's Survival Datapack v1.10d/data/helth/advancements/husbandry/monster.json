@@ -1,0 +1,24 @@
+{
+  "parent": "helth:husbandry/suspicious_stew",
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{CustomModelData:808}"
+    },
+    "title": {
+      "text": "Pretty Messed Up"
+    },
+    "description": {
+      "text": "Make a dish out of an turtle egg"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "granted_by_function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

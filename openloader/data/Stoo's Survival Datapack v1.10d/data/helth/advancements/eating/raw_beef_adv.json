@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_raw_beef"
+  },
+  "criteria": {
+    "ate_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beef"
+        }
+      }
+    }
+  }
+}

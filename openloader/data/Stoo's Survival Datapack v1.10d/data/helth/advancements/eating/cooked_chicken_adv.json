@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_cooked_chicken"
+  },
+  "criteria": {
+    "ate_cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_chicken"
+        }
+      }
+    }
+  }
+}

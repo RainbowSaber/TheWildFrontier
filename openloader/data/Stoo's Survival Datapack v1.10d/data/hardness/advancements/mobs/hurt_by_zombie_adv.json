@@ -1,0 +1,18 @@
+{
+  "rewards": {
+    "function": "hardness:mobs/mob_hurt_player/hurt_by_zombie"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "type": "minecraft:zombie"
+          }
+        }
+      }
+    }
+  }
+}

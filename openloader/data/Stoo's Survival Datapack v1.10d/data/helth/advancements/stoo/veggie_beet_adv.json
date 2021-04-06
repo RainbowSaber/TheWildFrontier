@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "helth:stoo/veggie_beet"
+            }
+        }
+    },
+    "rewards": {
+        "function": "helth:stoo/veggie_beet"
+    }
+}

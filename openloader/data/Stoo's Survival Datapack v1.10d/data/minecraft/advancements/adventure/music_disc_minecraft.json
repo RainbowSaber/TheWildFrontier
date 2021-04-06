@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:adventure/blowin_in_the_wind",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{CustomModelData:101}"
+    },
+    "title": {
+      "text": "Minecraft"
+    },
+    "description": {
+      "text": "Obtain a music disc to commemorate your efforts"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "experience": 800
+  },
+  "criteria": {
+    "granted_by_bozzes": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

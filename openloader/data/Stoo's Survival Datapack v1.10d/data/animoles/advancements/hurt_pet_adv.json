@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#animoles:pets"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "animoles:interactions/damage/hurt_pet"
+  }
+}

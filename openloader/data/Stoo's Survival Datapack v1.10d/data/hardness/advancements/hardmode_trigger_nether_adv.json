@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "HardModeTrigger": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 80,
+        "function": "hardness:hardmode/triggered_nether"
+    }
+}

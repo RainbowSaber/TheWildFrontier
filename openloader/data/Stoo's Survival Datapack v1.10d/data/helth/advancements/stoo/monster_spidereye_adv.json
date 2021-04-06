@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "helth:stoo/monster_spidereye"
+            }
+        }
+    },
+    "rewards": {
+        "function": "helth:stoo/monster_spidereye"
+    }
+}

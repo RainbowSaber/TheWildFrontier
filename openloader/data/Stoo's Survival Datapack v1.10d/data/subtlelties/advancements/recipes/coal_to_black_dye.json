@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "subtlelties:coal_to_black_dye",
+      "subtlelties:charcoal_to_black_dye"
+    ]
+  },
+  "criteria": {
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:coal"
+          }
+        ]
+      }
+    },
+    "has_charcoal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:charcoal"
+          }
+        ]
+      }
+    },
+    "has_coal_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "subtlelties:coal_to_black_dye"
+      }
+    },
+    "has_charcoal_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "subtlelties:charcoal_to_black_dye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_coal",
+      "has_coal_recipe",
+      "has_charcoal",
+      "has_charcoal_recipe"
+    ]
+  ]
+}

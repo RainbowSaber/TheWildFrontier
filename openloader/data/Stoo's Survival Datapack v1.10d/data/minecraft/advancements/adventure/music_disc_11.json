@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:adventure/blowin_in_the_wind",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_11"
+    },
+    "title": {
+      "text": "11",
+      "obfuscated": true
+    },
+    "description": {
+      "text": "Obtain a music disc that which withers"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "criteria": {
+    "granted_by_bozzes": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

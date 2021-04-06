@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_melon_slice"
+  },
+  "criteria": {
+    "ate_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:melon_slice"
+        }
+      }
+    }
+  }
+}

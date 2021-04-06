@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "function": "hardness:mobs/player_hurt_mob/creeper"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": false,
+            "is_lightning": false,
+            "is_magic": false
+          }
+        },
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_beetroot_soup"
+  },
+  "criteria": {
+    "ate_beetroot_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beetroot_soup"
+        }
+      }
+    }
+  }
+}

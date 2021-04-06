@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "helth:stoo/delicious/potent_netherwarped"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "suspicious_stew",
+          "nbt": "{Tags:[\"potent\"],Effects:[{EffectId:25,EffectDuration:110}]}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "helth:chocomilk/drank_chocolate_milk"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "potion",
+          "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§fChocolate Milk\\\"}\"},CustomPotionColor:6504731,HideFlags:35,Tags:[\"pot_chocolate:1b\"]}"
+        }
+      }
+    }
+  }
+}

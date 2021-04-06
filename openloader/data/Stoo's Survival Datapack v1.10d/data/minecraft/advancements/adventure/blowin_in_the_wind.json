@@ -1,0 +1,102 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "Blowin' in the Wind"
+    },
+    "description": {
+      "text": "Uncover the world's forgotten ruins"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 400
+  },
+  "criteria": {
+    "minecraft:desert_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "desert_pyramid"
+        }
+      }
+    },
+    "minecraft:mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "minecraft:ocean_ruin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "ocean_ruin"
+        }
+      }
+    },
+    "minecraft:jungle_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "jungle_pyramid"
+        }
+      }
+    },
+    "minecraft:ruined_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "ruined_portal"
+        }
+      }
+    },
+    "minecraft:shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "shipwreck"
+        }
+      }
+    },
+    "minecraft:stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "stronghold"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:desert_pyramid"
+    ],
+    [
+      "minecraft:mineshaft"
+    ],
+    [
+      "minecraft:stronghold"
+    ],
+    [
+      "minecraft:shipwreck"
+    ],
+    [
+      "minecraft:ruined_portal"
+    ],
+    [
+      "minecraft:jungle_pyramid"
+    ],
+    [
+      "minecraft:ocean_ruin"
+    ]
+  ]
+}

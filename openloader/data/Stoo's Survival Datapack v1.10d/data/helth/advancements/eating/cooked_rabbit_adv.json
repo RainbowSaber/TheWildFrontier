@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_cooked_rabbit"
+  },
+  "criteria": {
+    "ate_cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_rabbit"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/blowin_in_the_wind",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_wait"
+    },
+    "title": {
+      "text": "Wait"
+    },
+    "description": {
+      "text": "Obtain a music disc from that which flows"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "criteria": {
+        "fished_record": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:music_disc_wait"
+                }
+            }
+        }
+  }
+}

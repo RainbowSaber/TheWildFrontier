@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "helth:eating/ate_cooked_mutton"
+  },
+  "criteria": {
+    "ate_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_mutton"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:zoglin",
+    "minecraft:zombified_piglin",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "minecraft:ravager",
+    "minecraft:pillager",
+    "minecraft:wolf"
+  ]
+}

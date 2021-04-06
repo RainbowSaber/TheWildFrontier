@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:lectern"
+      }
+    }
+  },
+  "rewards": {
+    "function": "stonks:villagers/placed_lectern"
+  }
+}

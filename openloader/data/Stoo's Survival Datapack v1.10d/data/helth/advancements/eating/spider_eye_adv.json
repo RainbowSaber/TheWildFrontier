@@ -1,0 +1,16 @@
+
+{
+  "rewards": {
+    "function": "helth:eating/specials/ate_spider_eye"
+  },
+  "criteria": {
+    "ate_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:spider_eye"
+        }
+      }
+    }
+  }
+}

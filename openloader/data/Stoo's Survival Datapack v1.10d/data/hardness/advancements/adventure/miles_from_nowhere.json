@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:adventure/totem_of_undying",
+    "display": {
+        "title": {
+            "text": "Miles From Nowhere"
+        },
+        "description": {
+            "text": "Lose your life in Merciful Hardcore mode."
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:chicken",
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:cave_spider",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "minecraft:hoglin",
+    "minecraft:zoglin",
+    "minecraft:wither_skeleton",
+    "minecraft:enderman",
+    "minecraft:wolf",
+    "minecraft:cat"
+  ]
+}

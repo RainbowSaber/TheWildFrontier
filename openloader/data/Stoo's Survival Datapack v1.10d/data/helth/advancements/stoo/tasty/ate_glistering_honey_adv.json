@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "helth:stoo/tasty/glistering_honey"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "suspicious_stew",
+          "nbt": "{Effects:[{EffectId:3,EffectDuration:480}], CustomModelData:505, display:{Name:\"{\\\"text\\\":\\\"§r§bTasty Honeyed Mushroom Stew\\\"}\"}}"
+        }
+      }
+    }
+  }
+}

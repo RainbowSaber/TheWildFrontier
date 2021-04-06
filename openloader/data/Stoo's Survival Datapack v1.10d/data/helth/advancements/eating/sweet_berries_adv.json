@@ -1,0 +1,16 @@
+
+{
+  "rewards": {
+    "function": "helth:eating/ate_sweet_berries"
+  },
+  "criteria": {
+    "ate_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:sweet_berries"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "hardness:player_died"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_killed_player"
+    }
+  }
+}

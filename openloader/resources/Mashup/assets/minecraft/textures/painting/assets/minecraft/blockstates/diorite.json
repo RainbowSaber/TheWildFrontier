@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-        {  "model": "block/diorite", "weight": 2 },
-        {  "model": "block/diorite1", "weight": 3 }
-      ]
-    }
-}

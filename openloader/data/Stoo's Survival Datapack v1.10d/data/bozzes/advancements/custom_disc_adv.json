@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "bozzes:custom_music_disc"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:music_disc_strad",
+          "nbt": "{HideFlags:63,display:{Lore:[\"{\\\"text\\\":\\\"§7C418 - Minecraft\\\"}\",\"{\\\"text\\\":\\\"§7Thanks for all the years.\\\"}\"]},CustomModelData:101}"
+        }
+      }
+    }
+  }
+}

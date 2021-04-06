@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "hardness:merciful_hardcore/used_bed"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:beds"
+          }
+        }
+      }
+    }
+  }
+}

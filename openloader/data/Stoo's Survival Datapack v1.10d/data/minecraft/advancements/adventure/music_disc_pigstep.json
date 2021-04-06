@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:adventure/blowin_in_the_wind",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "text": "Pigstep"
+    },
+    "description": {
+      "text": "Steal a music disc from a crumbling fortress"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "criteria": {
+    "bastion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "bastion_remnant"
+        }
+      }
+    },
+    "obtained_record": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "music_disc_pigstep"
+          }
+        ]
+      }
+    }
+  }
+}

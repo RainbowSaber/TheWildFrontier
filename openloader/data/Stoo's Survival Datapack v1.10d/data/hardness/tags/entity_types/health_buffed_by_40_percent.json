@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cow",
+    "minecraft:chicken",
+    "minecraft:pig",
+    "minecraft:sheep",
+    "minecraft:spider",
+    "minecraft:evoker",
+    "minecraft:vindicator",
+    "minecraft:illusioner",
+    "minecraft:witch",
+    "minecraft:hoglin",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:ghast",
+    "minecraft:blaze",
+    "minecraft:wither_skeleton",
+    "minecraft:enderman",
+    "minecraft:shulker",
+    "minecraft:endermite"
+  ]
+}

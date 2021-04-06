@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+	{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "pillager_outpost",
+              "decoration": "banner_black",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+                "function": "set_name",
+		"name": "Super Secret Hideout"
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ],
+      "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "nbt": "{PatrolLeader:1b}"
+            },
+            "entity": "this"
+          }
+      ]
+    }
+  ]
+}

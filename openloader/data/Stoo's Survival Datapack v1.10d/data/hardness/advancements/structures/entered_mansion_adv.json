@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "hardness:structures/entered_mansion"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mansion"
+        }
+      }
+    }
+  }
+}
