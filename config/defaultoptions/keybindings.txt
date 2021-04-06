@@ -8,7 +8,7 @@ key_key.jump:key.keyboard.space:NONE
 key_key.sneak:key.keyboard.left.shift:NONE
 key_key.sprint:key.keyboard.left.control:NONE
 key_key.drop:key.keyboard.q:NONE
-key_key.inventory:key.keyboard.e:NONE
+key_key.inventory:key.keyboard.g:NONE
 key_key.chat:key.keyboard.t:NONE
 key_key.playerlist:key.keyboard.tab:NONE
 key_key.pickItem:key.mouse.middle:NONE
@@ -20,8 +20,8 @@ key_key.smoothCamera:key.keyboard.unknown:NONE
 key_key.fullscreen:key.keyboard.f11:NONE
 key_key.spectatorOutlines:key.keyboard.unknown:NONE
 key_key.swapOffhand:key.keyboard.f:NONE
-key_key.saveToolbarActivator:key.keyboard.c:NONE
-key_key.loadToolbarActivator:key.keyboard.x:NONE
+key_key.saveToolbarActivator:key.keyboard.unknown:NONE
+key_key.loadToolbarActivator:key.keyboard.unknown:NONE
 key_key.advancements:key.keyboard.l:NONE
 key_key.hotbar.1:key.keyboard.1:NONE
 key_key.hotbar.2:key.keyboard.2:NONE
@@ -35,34 +35,36 @@ key_key.hotbar.9:key.keyboard.9:NONE
 key_[Fabrication] Toggle Stance:key.keyboard.unknown:NONE
 key_key.secondarySprint:key.keyboard.w:NONE
 key_key.dismount:key.keyboard.left.shift:NONE
-key_key.narrator:key.keyboard.b:CONTROL
+key_key.narrator:key.keyboard.unknown:NONE
 key_key.pause:key.keyboard.escape:NONE
 key_key.gui:key.keyboard.f1:NONE
 key_key.debugInfo:key.keyboard.f3:NONE
-key_[Fabrication] Crawl:key.keyboard.unknown:NONE
-key_key.enchdesc.show:key.keyboard.left.shift:NONE
-key_key.ftbchunks.map:key.keyboard.m:NONE
-key_key.charm.openCraftingTable:key.keyboard.v:NONE
-key_key.charm.openEnderChest:key.keyboard.b:NONE
+key_[Fabrication] Crawl:key.keyboard.c:NONE
+key_key.ftbchunks.map:key.keyboard.unknown:NONE
+key_key.enchdesc.show:key.keyboard.unknown:NONE
+key_key.charm.openCraftingTable:key.keyboard.unknown:NONE
+key_key.charm.openEnderChest:key.keyboard.unknown:NONE
+key_key.toggleLiquids:key.keyboard.unknown:NONE
+key_key.toggleVisible:key.keyboard.unknown:NONE
+key_Strip World:key.keyboard.delete:NONE
+key_Dress World:key.keyboard.unknown:NONE
+key_Open Config:key.keyboard.unknown:NONE
+key_Add Block:key.keyboard.unknown:NONE
+key_Remove Block:key.keyboard.unknown:NONE
+key_Cycle Profile:key.keyboard.unknown:NONE
 key_neat.keybind.toggle:key.keyboard.unknown:NONE
-key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
+key_key.solpotato.open_food_book:key.keyboard.unknown:NONE
+key_key.elenaidodge.dodge:key.keyboard.left.alt:NONE
+key_key.solpotato.open_food_book:key.keyboard.unknown:NONE
+key_key.curios.open.desc:key.keyboard.e:NONE
+key_Options Gui:key.keyboard.i:NONE
+key_key.stepup.desc:key.keyboard.h:NONE
 key_key.toastcontrol.clear:key.keyboard.j:NONE
-key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
-key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
-key_key.solpotato.open_food_book:key.keyboard.unknown:NONE
-key_key.solpotato.open_food_book:key.keyboard.unknown:NONE
+key_key.cofh.mode_change_increment:key.keyboard.v:NONE
 key_key.astikorcarts.desc:key.keyboard.r:NONE
-key_key.curios.open.desc:key.keyboard.g:NONE
+key_quark.keybind.back:key.keyboard.unknown:NONE
 key_quark.keybind.sort_player:key.keyboard.unknown:NONE
 key_quark.keybind.sort_container:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
-key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
-key_quark.keybind.back:key.mouse.4:NONE
-key_quark.keybind.lock_rotation:key.keyboard.k:NONE
-key_quark.keybind.change_hotbar:key.keyboard.z:NONE
-key_quark.keybind.camera_mode:key.keyboard.f12:NONE
-key_quark.keybind.autorun:key.keyboard.caps.lock:NONE
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
 key_quark.emote.wave:key.keyboard.unknown:NONE
@@ -81,7 +83,14 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:NONE
-key_Options Gui:key.keyboard.i:NONE
+key_quark.keybind.camera_mode:key.keyboard.f12:NONE
+key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
+key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
+key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
+key_quark.keybind.lock_rotation:key.keyboard.b:NONE
+key_quark.keybind.autorun:key.keyboard.unknown:NONE
+key_quark.keybind.change_hotbar:key.keyboard.z:NONE
+key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown:NONE
