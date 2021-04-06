@@ -13,6 +13,20 @@
         "negate": false,
         "value": "byg:crimson_garden"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:warped_forest_d"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:warped_plains"
+      }
     ]
   ]
 }

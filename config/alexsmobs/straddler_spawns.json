@@ -6,6 +6,20 @@
         "negate": false,
         "value": "minecraft:basalt_deltas"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:basalt_deltas_cooled"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:basalt_deltas_ex"
+      }
     ]
   ]
 }

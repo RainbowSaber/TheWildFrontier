@@ -28,6 +28,13 @@
         "negate": false,
         "value": "snowy"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terraforged:frozen_lake"
+      }
     ]
   ]
 }

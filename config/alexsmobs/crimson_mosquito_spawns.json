@@ -20,6 +20,20 @@
         "negate": false,
         "value": "biomesoplenty:visceral_heap"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:crimson_forest_s"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:crimson_forest_z"
+      }
     ]
   ]
 }

@@ -13,6 +13,27 @@
         "negate": false,
         "value": "byg:warped_desert"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:cursed_forest"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:nether_wart_valley"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "starmute:soul_sand_valley_d"
+      }
     ]
   ]
 }

@@ -16,6 +16,13 @@
     ],
     [
       {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terraforged:flower_plains"
+      }
+    ],
+    [
+      {
         "type": "BIOME_DICT",
         "negate": false,
         "value": "overworld"

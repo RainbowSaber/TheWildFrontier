@@ -1,3 +1,11 @@
 {
-  "biomes": []
+  "biomes": [
+      [
+        {
+          "type": "REGISTRY_NAME",
+          "negate": false,
+          "value": "starmute:voltaic_heap"
+        }
+      ]
+  ]
 }
