@@ -1,0 +1,76 @@
+{
+  "surface_builder": "far_end:end_default",
+  "depth": 0.125,
+  "scale": 0.01,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "the_end",
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 16636149,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "music.end",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": false
+    }
+  },
+  "starts": [
+    "minecraft:stronghold",
+    "minecraft:end_city"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 7
+      },
+      {
+        "type": "alexsmobs:enderiophage",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "alexsmobs:spectre",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "alexsmobs:mimicube",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "alexsmobs:endergrade",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:end_carver_default"
+    ]
+  },
+  "features": [
+    [
+      "far_end:default_end_stone_bricks",
+      "minecraft:chorus_plant",
+      "minecraft:end_island_decorated",
+      "minecraft:end_spike"
+    ]
+  ]
+}

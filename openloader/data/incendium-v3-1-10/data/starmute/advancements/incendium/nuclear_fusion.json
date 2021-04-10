@@ -1,0 +1,65 @@
+{
+  "rewards": {
+    "experience": 100
+  },  
+  "display": {
+    "icon": {
+      "item": "slime_block",
+      "nbt": "{Enchantments:[{id:\"protection\",lvl:4}]}"
+    },
+    "title": {
+      "translate": "Nuclear Fusion"
+    },
+    "description": 
+    {
+      "translate": "Loot a Power Plant"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/toxic_heap",
+  "criteria": {
+    "starmute:office_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:reactor/office_treasure"
+      }
+    },
+    "starmute:office": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:reactor/office"
+      }
+    },
+    "starmute:junk": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:reactor/junk"
+      }
+    },
+    "starmute:treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:reactor/treasure"
+      }
+    },
+    "starmute:waste": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:reactor/waste"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "starmute:waste",
+      "starmute:junk",
+      "starmute:office",
+      "starmute:office_treasure",
+      "starmute:treasure"
+    ]
+  ]
+
+}

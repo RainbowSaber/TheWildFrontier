@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "red_sand",
+      "nbt": "{Enchantments:[{id:\"protection\",lvl:\"4\"}]}"
+    },
+    "title": {
+      "translate": "Sacred Sands"
+    },
+    "description": 
+    {
+      "translate": "Enter the Purified Dunes, homeland of the Hovering Inferno"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/infernal_dunes",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "starmute:purified_dunes"
+          }
+        }
+      }
+    }
+  }
+}

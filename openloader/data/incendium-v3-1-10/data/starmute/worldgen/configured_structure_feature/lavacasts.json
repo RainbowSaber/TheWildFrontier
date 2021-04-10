@@ -1,0 +1,8 @@
+{
+  "config": {
+    "start_pool": "starmute:anarchy/starts",
+    "size": 2
+  },
+  "type": "minecraft:bastion_remnant",
+  "name": "starmute:lavacasts"
+}

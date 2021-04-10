@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "title": "Keep it Warm",
+    "description": "Wear full set of leather armor to avoid the cold",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "far_end:story/snowy_warped_forest",
+  "criteria": {
+    "lether helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "far_end:far_end"
+          }
+        },
+        "items": [
+          {
+            "item": "minecraft:leather_helmet"
+          },
+          {
+            "item": "minecraft:leather_chestplate"
+          },
+          {
+            "item": "minecraft:leather_leggings"
+          },
+          {
+            "item": "minecraft:leather_boots"
+          }
+        ]
+      }
+    }
+  }
+}

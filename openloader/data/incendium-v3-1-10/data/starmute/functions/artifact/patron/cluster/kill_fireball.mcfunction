@@ -1,0 +1,3 @@
+tag @e[type=#starmute:mobs_no_player,distance=..2,sort=nearest,limit=1] add in.shot
+execute if entity @e[type=#starmute:mobs_no_player,tag=!in.shot,distance=..3] run summon firework_rocket ~ ~ ~ {Silent:1b,NoGravity:0b,Life:0,LifeTime:0,Motion:[0.0,0.5,0.0],Tags:["d1","cluster"],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Colors:[I;16777215],FadeColors:[I;16774502]},{Type:4,Colors:[I;16774502],FadeColors:[I;16777215]}]}}}}
+execute if entity @e[type=#starmute:mobs_no_player,tag=!in.shot,distance=..3] run kill @s

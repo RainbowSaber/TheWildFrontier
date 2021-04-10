@@ -1,0 +1,15 @@
+{
+  "name": "exit_portal/nether",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "far_end:adjust/height48",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

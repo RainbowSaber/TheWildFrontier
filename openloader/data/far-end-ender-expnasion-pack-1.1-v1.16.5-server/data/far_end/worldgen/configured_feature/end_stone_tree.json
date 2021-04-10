@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:square",
+      "config": {}
+    },
+    "feature": {
+      "type": "minecraft:tree",
+      "config": {
+        "max_water_depth": 0,
+        "ignore_vines": true,
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "minimum_size": {
+          "type": "minecraft:three_layers_feature_size"
+        },
+        "trunk_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:end_stone"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:end_stone_bricks"
+              }
+            }
+          ]
+        },
+        "leaves_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 5,
+              "data": {
+                "Name": "minecraft:prismarine_bricks"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:sea_lantern"
+              }
+            },
+            {
+              "weight": 40,
+              "data": {
+                "Name": "minecraft:prismarine"
+              }
+            }
+          ]
+        },
+        "trunk_placer": {
+          "type": "minecraft:dark_oak_trunk_placer",
+          "base_height": 12,
+          "height_rand_a": 4,
+          "height_rand_b": 0
+        },
+        "foliage_placer": {
+          "type": "minecraft:dark_oak_foliage_placer",
+          "radius": 2,
+          "offset": 0
+        },
+        "decorators": [
+          {
+            "type": "minecraft:leave_vine"
+          }
+        ]
+      }
+    }
+  }
+}

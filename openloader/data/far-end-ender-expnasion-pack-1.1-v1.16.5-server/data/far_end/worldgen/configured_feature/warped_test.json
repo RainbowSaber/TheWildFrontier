@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 100
+      }
+    },
+    "feature": {
+      "type": "minecraft:simple_block",
+      "config": {
+        "to_place": {
+          "Name": "minecraft:andesite"
+        },
+        "place_on": [
+          {
+            "Name": "minecraft:warped_wart_block"
+          }
+        ],
+        "place_in": [
+          {
+            "Name": "minecraft:netherrack"
+          }
+        ],
+        "place_under": [
+          {
+            "Name": "minecraft:end_stone"
+          }
+        ]
+      }
+    }
+  }
+}

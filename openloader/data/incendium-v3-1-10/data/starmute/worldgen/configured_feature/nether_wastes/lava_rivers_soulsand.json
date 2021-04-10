@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 2560,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 900,
+                    "noise_offset": 0.25
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 47,
+                    "noise_offset": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 405,
+                "noise_offset": 0.06
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 405,
+                        "noise_offset": -0.06
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "outer": {
+                          "type": "minecraft:nope",
+                          "config": {}
+                        },
+                        "inner": {
+                          "type": "minecraft:depth_average",
+                          "config": {
+                            "baseline": 39,
+                            "spread": 3
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:ore",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:soul_soil"
+                    },
+                    "size": 64,
+                    "target": {
+                      "tag": "starmute:nether_blocks_no_air",
+                      "predicate_type":"minecraft:tag_match"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

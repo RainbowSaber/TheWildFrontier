@@ -1,0 +1,30 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "hat_state": {
+          "Name": "minecraft:air"
+        },
+        "decor_state": {
+          "Name": "minecraft:air"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:lime_terracotta"
+        },
+        "stem_state": {
+          "Name": "minecraft:green_stained_glass"
+        }
+      },
+      "type": "minecraft:huge_fungus",
+      "name": "starmute:sparse_crimson_fungi"
+    },
+    "decorator": {
+      "config": {
+        "count": 8
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

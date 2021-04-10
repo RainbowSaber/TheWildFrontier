@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "title": "Guardians of the Forest",
+    "description": "Kill the Elder Guardian",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "far_end:story/amethyst_forest",
+  "criteria": {
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "far_end:far_end"
+          }
+        },
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

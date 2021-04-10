@@ -1,0 +1,302 @@
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+    "biome_source": {
+      "temperature_noise": {
+        "firstOctave": -8,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "humidity_noise": {
+        "firstOctave": -8,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -8,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -8,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed": 0,
+      "biomes": [
+        {
+          "parameters": {
+            "altitude": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "altitude": 0.0,
+            "weirdness": -0.05,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": -0.5
+          },
+          "biome": "minecraft:soul_sand_valley"
+        },
+        {
+          "parameters": {
+            "altitude": 0.0,
+            "weirdness": -0.05,
+            "offset": 0.15,
+            "temperature": 0.25,
+            "humidity": -0.55
+          },
+          "biome": "starmute:nether_wart_valley"
+        },
+        {
+          "parameters": {
+            "altitude": 0.0,
+            "weirdness": -0.065,
+            "offset": 0.15,
+            "temperature": -0.25,
+            "humidity": -0.625
+          },
+          "biome": "starmute:soul_sand_valley_d"
+        },
+        {
+          "parameters": {
+            "altitude": 0.065,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.4,
+            "humidity": 0.0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "altitude": 0.0675,
+            "weirdness": 0.0,
+            "offset": 0.15,
+            "temperature": 0.4,
+            "humidity": 0.25
+          },
+          "biome": "starmute:crimson_forest_s"
+        },
+        {
+          "parameters": {
+            "altitude": 0.0725,
+            "weirdness": 0.0,
+            "offset": 0.225,
+            "temperature": 0.4,
+            "humidity": -0.25
+          },
+          "biome": "starmute:crimson_forest_z"
+        },
+        {
+          "parameters": {
+            "altitude": 0.05,
+            "weirdness": 0.0,
+            "offset": 0.375,
+            "temperature": 0.0,
+            "humidity": 0.5
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "altitude": 0.05,
+            "weirdness": 0.0,
+            "offset": 0.385,
+            "temperature": 0.25,
+            "humidity": 0.5
+          },
+          "biome": "starmute:warped_forest_d"
+        },
+        {
+          "parameters": {
+            "altitude": 0.05,
+            "weirdness": 0.0,
+            "offset": 0.435,
+            "temperature": -0.25,
+            "humidity": 0.5
+          },
+          "biome": "starmute:warped_plains"
+        },
+        {
+          "parameters": {
+            "altitude": -0.065,
+            "weirdness": 0.0,
+            "offset": 0.1425,
+            "temperature": -0.5,
+            "humidity": 0.0
+          },
+          "biome": "minecraft:basalt_deltas"
+        },
+        {
+          "parameters": {
+            "altitude": -0.065,
+            "weirdness": 0.0,
+            "offset": 0.2265,
+            "temperature": -0.535,
+            "humidity": -0.25
+          },
+          "biome": "starmute:basalt_deltas_cooled"
+        },
+        {
+          "parameters": {
+            "altitude": -0.065,
+            "weirdness": 0.0,
+            "offset": 0.3285,
+            "temperature": -0.6375,
+            "humidity": 0.25
+          },
+          "biome": "starmute:basalt_deltas_ex"
+        },
+        {
+          "parameters": {
+            "altitude": 0.0,
+            "weirdness": 0.5,
+            "offset": 0.1,
+            "temperature": -0.1,
+            "humidity": -0.1
+          },
+          "biome": "starmute:quartz_flats"
+        },
+        {
+          "parameters": {
+            "altitude": 0.25,
+            "weirdness": 0.675,
+            "offset": 0.2375,
+            "temperature": -0.1,
+            "humidity": -0.125
+          },
+          "biome": "starmute:quartz_hills"
+        },
+        {
+          "parameters": {
+            "altitude": 0.0,
+            "weirdness": -0.5,
+            "offset": 0.195,
+            "temperature": 0.0,
+            "humidity": 0.0
+          },
+          "biome": "starmute:toxic_heap"
+        },
+        {
+          "parameters": {
+            "altitude": 0.25,
+            "weirdness": -0.675,
+            "offset": 0.335,
+            "temperature": 0.0,
+            "humidity": 0.0
+          },
+          "biome": "starmute:toxic_springs"
+        },
+        {
+          "parameters": {
+            "altitude": -0.275,
+            "weirdness": -0.685,
+            "offset": 0.2475,
+            "temperature": 0.0,
+            "humidity": -0.11
+          },
+          "biome": "starmute:voltaic_heap"
+        },
+        {
+          "parameters": {
+            "altitude": 0.5,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": -0.055
+          },
+          "biome": "starmute:infernal_dunes"
+        },
+        {
+          "parameters": {
+            "altitude": 0.675,
+            "weirdness": 0.25,
+            "offset": 0.155,
+            "temperature": 0.0,
+            "humidity": -0.1
+          },
+          "biome": "starmute:purified_dunes"
+        },
+        {
+          "parameters": {
+            "altitude": 0.425,
+            "weirdness": -0.25,
+            "offset": 0.265,
+            "temperature": 0.1,
+            "humidity": -0.1
+          },
+          "biome": "starmute:polluted_dunes"
+        },
+        {
+          "parameters": {
+            "altitude": -0.5,
+            "weirdness": 0,
+            "offset": 0.1,
+            "temperature": 0.055,
+            "humidity": 0.055
+          },
+          "biome": "starmute:withered_forest"
+        },
+        {
+          "parameters": {
+            "altitude": -0.675,
+            "weirdness": -0.25,
+            "offset": 0.165,
+            "temperature": 0.065,
+            "humidity": 0.065
+          },
+          "biome": "starmute:withered_forest_a"
+        },
+        {
+          "parameters": {
+            "altitude": -0.675,
+            "weirdness": 0.25,
+            "offset": 0.3125,
+            "temperature": 0.1,
+            "humidity": 0.065
+          },
+          "biome": "starmute:cursed_forest"
+        },
+                {
+          "parameters": {
+            "altitude": -0.25,
+            "weirdness": -0.25,
+            "offset": 0.35,
+            "temperature": -0.25,
+            "humidity": -0.25
+          },
+          "biome": "starmute:z_nether_caverns"
+        },
+                {
+          "parameters": {
+            "altitude": 0.25,
+            "weirdness": 0.25,
+            "offset": 0.35,
+            "temperature": 0.25,
+            "humidity": 0.25
+          },
+          "biome": "starmute:z_nether_caverns"
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 0,
+    "settings": "starmute:nether3",
+    "type": "minecraft:noise"
+  }
+}

@@ -9,7 +9,7 @@
 #Display
 [Display]
 	#Change this value to change the name of the MineCraft window
-	windowDisplayTitle = "Minecraft forge-36.1.0"
+	windowDisplayTitle = "Wild Frontier"
 	#Set to true to load a custom icon from config\itlt\icon.png
 	loadCustomIcon = true
 	#Set to true to attempt to use the icon assigned to the modpack by the technic launcher. 

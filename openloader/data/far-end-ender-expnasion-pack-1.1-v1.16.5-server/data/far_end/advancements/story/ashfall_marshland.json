@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blackstone"
+    },
+    "title": "Ashfall Marshland",
+    "description": "A long dead marshland. Cold ash falls from the sky endlessly",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "far_end:story/amethyst_forest",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "far_end:ashfall_marshland"
+        }
+      }
+    }
+  }
+}

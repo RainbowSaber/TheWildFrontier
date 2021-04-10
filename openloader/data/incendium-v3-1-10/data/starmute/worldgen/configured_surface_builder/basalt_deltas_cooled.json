@@ -1,0 +1,15 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:gravel"
+    },
+    "under_material": {
+      "Name": "minecraft:gravel"
+    },
+    "underwater_material": {
+      "Name": "minecraft:magma_block"
+    }
+  },
+  "type": "minecraft:basalt_deltas",
+  "name": "starmute:basalt_deltas_cooled"
+}

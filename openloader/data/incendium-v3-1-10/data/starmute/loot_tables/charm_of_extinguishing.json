@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:48,display:{Name:'[{\"translate\":\"Charm of Extinguishing\",\"italic\":false,\"color\":\"#22aaff\"}]'},Enchantments:[{id:\"unbreaking\",lvl:10}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "§cProvides a burst of flame",
+                "§cresistance when lit on fire",
+                "§4Works from your inventory"
+              ],
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

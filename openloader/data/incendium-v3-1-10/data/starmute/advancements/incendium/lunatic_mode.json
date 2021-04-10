@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "white_banner",
+      "nbt": "{Enchantments:[{id:\"protection\",lvl:\"4\"}]}"
+    },
+    "title": {
+      "translate": "Lunatic Mode"
+    },
+    "description": 
+    {
+      "translate": "Survive the Inferno's \"Nether Sign「Last Stand」\" with no armor"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "starmute:incendium/run",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

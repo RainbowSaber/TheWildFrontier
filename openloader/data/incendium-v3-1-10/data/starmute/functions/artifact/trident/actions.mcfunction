@@ -1,0 +1,1 @@
+tp @e[type=minecraft:area_effect_cloud,tag=rotator,tag=moving,distance=..5,limit=1,sort=nearest] ~ ~ ~

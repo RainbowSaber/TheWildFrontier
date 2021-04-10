@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 100
+      }
+    },
+    "feature": {
+      "type": "minecraft:flower",
+      "config": {
+        "can_replace": false,
+        "project": false,
+        "need_water": false,
+        "xspread": 5,
+        "yspread": 3,
+        "zspread": 5,
+        "tries": 4,
+        "state_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:wither_rose"
+          }
+        },
+        "block_placer": {
+          "type": "minecraft:simple_block_placer"
+        },
+        "whitelist": [],
+        "blacklist": []
+      }
+    }
+  }
+}

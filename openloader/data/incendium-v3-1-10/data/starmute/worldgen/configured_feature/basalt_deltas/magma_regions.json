@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 800,
+        "noise_factor": 400,
+        "noise_offset": 1.0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 60,
+                "bottom_offset": 35,
+                "top_offset": 25
+              }
+            },
+            "feature": {
+              "type": "minecraft:netherrack_replace_blobs",
+              "config": {
+                "state": {
+                  "Name": "minecraft:basalt",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                },
+                "target": {
+                  "Name": "minecraft:magma_block"
+                },
+                "radius": {
+                  "base": 7,
+                  "spread": 4
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

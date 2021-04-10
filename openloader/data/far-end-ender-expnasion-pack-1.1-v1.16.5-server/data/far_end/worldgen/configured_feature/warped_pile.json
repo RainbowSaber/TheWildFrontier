@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:netherrack_replace_blobs",
+      "config": {
+        "state": {
+          "Name": "minecraft:glowstone"
+        },
+        "target": {
+          "Name": "minecraft:end_stone"
+        },
+        "radius": {
+          "base": 2,
+          "spread": 1
+        }
+      }
+    }
+  }
+}

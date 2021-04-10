@@ -1,0 +1,143 @@
+{
+  "starts": [
+    "minecraft:ruined_portal_nether",
+    "minecraft:fortress",
+    "starmute:purified_arena"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "surface_builder": "starmute:purified_dunes",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ],
+    "liquid": [
+      "starmute:infernal_cave"
+    ]
+  },
+  "features": [
+    [ "starmute:infernal_dunes/purified_towers_909125",
+      "starmute:infernal_dunes/dunes_delta_large"],
+    [],
+    [ //"starmute:infernal_dunes/glowstone_d1",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      "starmute:infernal_dunes/infernal_columns_modified",
+      //"starmute:infernal_dunes/purified_tiny_towers",
+      //"starmute:infernal_dunes/purified_towers",
+      "starmute:infernal_dunes/purified_mid_towers",
+      "starmute:infernal_dunes/purified_spread_towers",
+      "starmute:infernal_dunes/patch_fire",
+      "starmute:infernal_dunes/redsand_purified",
+      "starmute:infernal_dunes/dunes_delta_post",
+      "starmute:infernal_dunes/dunes_delta_post",
+      "starmute:infernal_dunes/dunes_delta_post",
+      "starmute:infernal_dunes/dunes_delta_post",
+      "starmute:infernal_dunes/dunes_delta_post",
+      "starmute:infernal_dunes/sand_towers",
+      "starmute:infernal_dunes/rare_honey"
+    ],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_delta",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed_double",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_quartz_nether",
+      "starmute:infernal_dunes/ore_redstone_nether",
+      "starmute:infernal_dunes/ore_redstone_nether2",
+      "minecraft:ore_debris_large",
+      "minecraft:ore_debris_small",
+      "starmute:infernal_dunes/pipe_blobs"
+    ],
+    [
+      "minecraft:spring_lava_double",
+      "starmute:infernal_dunes/extra_weeping_vines"
+    ]
+  ],
+  "scale": 0,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.nether_wastes",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "fog_color": 7622219,
+    "water_color": 4159204,
+    "water_fog_color": 4341314,
+    "sky_color": 13590016,
+    "particle": {
+      "options": {
+        "type": "minecraft:dust",
+        "r": 0.9,
+        "g": 0.6,
+        "b": 0.4,
+        "scale": 1.0
+      },
+      "probability": 0.004
+    }
+  },
+  "precipitation": "none",
+  "category": "nether",
+  "depth": 0.115
+}

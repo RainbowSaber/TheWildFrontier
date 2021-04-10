@@ -1,0 +1,15 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:yellow_stained_glass"
+    },
+    "under_material": {
+      "Name": "minecraft:green_terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:netherrack"
+    }
+  },
+  "type": "minecraft:nether_forest",
+  "name": "starmute:nuclear_pit"
+}

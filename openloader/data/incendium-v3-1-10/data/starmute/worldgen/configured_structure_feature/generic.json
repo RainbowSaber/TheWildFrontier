@@ -1,0 +1,8 @@
+{
+  "config": {
+    "start_pool": "starmute:generic",
+    "size": 6
+  },
+  "type": "minecraft:bastion_remnant",
+  "name": "starmute:generic"
+}

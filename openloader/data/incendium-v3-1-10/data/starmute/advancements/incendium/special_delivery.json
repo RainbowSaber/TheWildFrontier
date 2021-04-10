@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_spawn_egg",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "\"Special\" Delivery"
+    },
+    "description": 
+    {
+      "translate": "Afflict a ghast with Speed, Regeneration and Invisibility -- then kill it to obtain its Ghastling"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/quartz_kill_ghast",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {},
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast",
+              "effects": {
+                "regeneration": {},
+                "speed": {},
+                "minecraft:invisibility": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {}
+}

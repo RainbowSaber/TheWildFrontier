@@ -1,0 +1,12 @@
+execute if score #hit in.fire_laser matches 0 positioned ~-0.05 ~-0.05 ~-0.05 as @e[type=#starmute:mobs,tag=!laser,dx=0,sort=nearest] if score #hit in.fire_laser matches 0 positioned ~-0.85 ~-0.85 ~-0.85 if entity @s[dx=0] run function starmute:sentry_a/hit_entity_chain
+scoreboard players add #distance2 in.fire_laser 1
+execute if predicate starmute:70_percent run particle minecraft:dust 0.7 0.1 1 1 ~ ~ ~ 0.01 0.01 0.01 0.0 1 force
+#execute unless block ~ ~ ~ #starmute:airs run function starmute:sentry_a/stop
+#execute if predicate starmute:0_2_percent run function starmute:avatar/attacks/firework_1
+execute positioned ^ ^ ^0.2 unless block ~ ~ ~ #starmute:airs run particle minecraft:dust 1 1 1 2.25 ~ ~ ~ 0 0 0 0.03 4 force
+execute if score #hit in.fire_laser matches 0 if predicate starmute:0_04_percent if score #distance2 in.fire_laser matches 0..60 positioned ^ ^ ^0.2 facing entity @e[type=#starmute:mobs,tag=!laser,distance=..10,sort=nearest,limit=1] eyes if block ~ ~ ~ #starmute:airs run function starmute:sentry_a/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..60 positioned ^ ^ ^0.2 rotated ~-22.5 ~ if block ~ ~ ~ #starmute:airs run function starmute:sentry_a/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..60 positioned ^ ^ ^0.2 rotated ~22.5 ~ if block ~ ~ ~ #starmute:airs run function starmute:sentry_a/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..60 positioned ^ ^ ^0.2 rotated ~ ~-22.5 if block ~ ~ ~ #starmute:airs run function starmute:sentry_a/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..60 positioned ^ ^ ^0.2 rotated ~ ~22.5 if block ~ ~ ~ #starmute:airs run function starmute:sentry_a/branch
+execute if score #hit in.fire_laser matches 0 if entity @a[distance=..70] if predicate starmute:95_percent if score #distance2 in.fire_laser matches ..60 positioned ^ ^ ^0.2 rotated ~ ~ if block ~ ~ ~ #starmute:airs run function starmute:sentry_a/branch_straight

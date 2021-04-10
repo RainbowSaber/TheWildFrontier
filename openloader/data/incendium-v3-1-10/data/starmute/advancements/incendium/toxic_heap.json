@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "slime_ball",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate": "Radioactive"
+    },
+    "description": 
+    {
+      "translate": "Enter the nuclear wastelands of the Toxic Heap"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "starmute:toxic_heap"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:heightmap_world_surface",
+      "config": {}
+    },
+    "feature": {
+      "type": "minecraft:delta_feature",
+      "config": {
+        "contents": {
+          "Name": "minecraft:water",
+          "Properties": {
+            "level": "0"
+          }
+        },
+        "rim": {
+          "Name": "minecraft:grass_block",
+          "Properties": {
+            "snowy": "false"
+          }
+        },
+        "size": {
+          "base": 8,
+          "spread": 2
+        },
+        "rim_size": 2
+      }
+    }
+  }
+}

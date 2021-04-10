@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "title": "Far End",
+    "description": "Far End Datapack is successfully installed!",
+    "background": "minecraft:textures/block/end_stone_bricks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "starmute:incendium/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {},
+        "item": {
+          "item": "minecraft:knowledge_book"
+        }
+      }
+    }
+  },
+  "rewards": {
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:crimson_nylium"
+    },
+    "under_material": {
+      "Name": "minecraft:blackstone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:netherrack"
+    }
+  },
+  "type": "minecraft:nether_forest",
+  "name": "starmute:scorched_remains"
+}

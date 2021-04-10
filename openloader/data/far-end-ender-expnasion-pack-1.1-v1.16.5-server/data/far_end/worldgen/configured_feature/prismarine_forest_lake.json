@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 10
+      }
+    },
+    "feature": {
+      "type": "minecraft:lake",
+      "config": {
+        "state": {
+          "Name": "minecraft:water",
+          "Properties": {
+            "level": "0"
+          }
+        }
+      }
+    }
+  }
+}

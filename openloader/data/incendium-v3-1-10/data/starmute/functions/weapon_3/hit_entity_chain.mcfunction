@@ -1,0 +1,11 @@
+scoreboard players set #hit in.fire_laser 0
+tag @s add laser
+execute at @s positioned ~ ~1 ~ if score #hit in.fire_laser matches 0 if predicate starmute:87_percent if score #distance2 in.fire_laser matches 0..3000 positioned ^ ^ ^0.2 facing entity @e[type=#starmute:mobs,tag=!laser,distance=..10,sort=nearest,limit=1] eyes if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch_straight
+execute at @s positioned ~ ~1 ~ if score #hit in.fire_laser matches 0 if predicate starmute:50_percent if score #distance2 in.fire_laser matches 0..3000 positioned ^ ^ ^0.2 facing entity @e[type=#starmute:mobs,tag=!laser,distance=10..16,sort=nearest,limit=1] eyes if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch_straight
+execute at @s positioned ~ ~1 ~ if score #hit in.fire_laser matches 0 if predicate starmute:30_percent if score #distance2 in.fire_laser matches 0..3000 positioned ^ ^ ^0.2 facing entity @e[type=#starmute:mobs,tag=!laser,distance=16..24,sort=nearest,limit=1] eyes if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch_straight
+execute at @s run summon minecraft:firework_rocket ~ ~1 ~ {Silent:1b,Motion:[0.0,0.0,0.0],ShotAtAngle:1,LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;16777215]},{Type:4,Flicker:0,Trail:0,Colors:[I;16777215]},{Type:4,Flicker:0,Trail:0,Colors:[I;16777215]},{Type:4,Flicker:0,Trail:0,Colors:[I;16777215]},{Type:4,Flicker:0,Trail:0,Colors:[I;16777215]},{Type:4,Flicker:0,Trail:0,Colors:[I;16777215]}]}}}}
+execute if entity @e[type=blaze,tag=sentry,distance=..5] run advancement grant @a[distance=..30,predicate=starmute:crossbow] only starmute:incendium/duel_of_the_fates
+data modify entity @e[type=firework_rocket,distance=..4,limit=1,sort=nearest] Owner set from entity @p UUID
+execute if predicate starmute:50_percent run data merge entity @s {Fire:80s}
+#execute at @s run particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 0.05 100 force
+#effect give @s instant_damage 1 1

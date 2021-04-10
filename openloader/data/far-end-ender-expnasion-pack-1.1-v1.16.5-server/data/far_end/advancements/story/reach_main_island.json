@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": "Long way to the Exit",
+    "description": "Travel to the central island to escape the Far End",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "far_end:story/sky_is_the_limit",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "far_end:far_end",
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

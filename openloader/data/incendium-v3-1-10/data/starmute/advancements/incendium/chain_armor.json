@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "chainmail_chestplate",
+      "nbt": "{Enchantments:[{id:\"protection\",lvl:4}]}"
+    },
+    "title": {
+      "translate": "Ghostbuster"
+    },
+    "description": 
+    {
+      "translate":"Put on some chain armor and use it to dispel a restless spirit"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/kill_spirit",
+  "criteria": {
+    "d": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": "Withering Marsh",
+    "description": "Kill the wither",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "far_end:story/ashfall_marshland",
+  "criteria": {
+    "lether helmet": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "far_end:far_end"
+          }
+        },
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "parent": "starmute:incendium/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_boots",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "Strange Biomes"
+    },
+    "description": 
+    {
+      "translate":"Enter a mutated Nether biome"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "starmute:crimson_forest_s": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:crimson_forest_s"
+        }
+      }
+    },
+    "starmute:nether_wart_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:nether_wart_valley"
+        }
+      }
+    },
+    "starmute:warped_forest_d": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:warped_forest_d"
+        }
+      }
+    },
+    "starmute:basalt_deltas_cooled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:basalt_deltas_cooled"
+        }
+      }
+    },
+    "starmute:basalt_deltas_ex": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:basalt_deltas_ex"
+        }
+      }
+    },
+    "starmute:soul_sand_valley_d": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:soul_sand_valley_d"
+        }
+      }
+    },
+    "starmute:warped_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:warped_plains"
+        }
+      }
+    },
+    "starmute:crimson_forest_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:crimson_forest_z"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "starmute:crimson_forest_s",
+      "starmute:warped_forest_d",
+      "starmute:nether_wart_valley",
+      "starmute:basalt_deltas_ex",
+      "starmute:basalt_deltas_cooled",
+      "starmute:warped_plains",
+      "starmute:crimson_forest_z",
+      "starmute:soul_sand_valley_d"
+    ]
+  ]
+}

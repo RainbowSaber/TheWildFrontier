@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:end_crystal",
+    "targeted_entity": {
+      "position": {
+        "x": {
+          "min": -100,
+          "max": 100
+        },
+        "y": {
+          "min": 0,
+          "max": 200
+        },
+        "z": {
+          "min": -100,
+          "max": 100
+        }
+      },
+        "dimension": "minecraft:the_end"
+      }
+    }
+  }
+}

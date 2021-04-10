@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "item": "golden_pickaxe"
+    },
+    "title": {
+      "translate": "Piglin Pillage"
+    },
+    "description": 
+    {
+      "translate":"Steal some loot from a Piglin Village"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/explore_variants",
+  "criteria": {
+    
+    "starmute:blacksmith": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:cvill/blacksmith"
+      }
+    },
+    "starmute:butcher": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:cvill/butcher"
+      }
+    },
+    "starmute:farmer": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:cvill/farmer"
+      }
+    },
+    "starmute:low": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:cvill/low"
+      }
+    },
+    "starmute:lumberjack": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:cvill/lumberjack"
+      }
+    },
+    "starmute:wood": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:cvill/wood"
+      }
+    },
+    "starmute:medium": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:cvill/medium"
+      }
+    }
+  
+  },
+  "requirements": [
+    [
+      "starmute:blacksmith",
+      "starmute:butcher",
+      "starmute:farmer",
+      "starmute:low",
+      "starmute:lumberjack",
+      "starmute:wood",
+      "starmute:medium"
+    ]
+  ]
+}

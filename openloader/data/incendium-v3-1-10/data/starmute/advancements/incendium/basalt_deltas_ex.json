@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "polished_basalt"
+    },
+    "title": {
+      "translate":"Hellfire Mantle"
+    },
+    "description": 
+    {
+      "translate":"Enter the chaotic Extreme Basalt Deltas"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/explore_variants",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "starmute:basalt_deltas_ex"
+          }
+        }
+      }
+    }
+  }
+}

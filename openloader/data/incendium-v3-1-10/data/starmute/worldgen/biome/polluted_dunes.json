@@ -1,0 +1,154 @@
+{
+  "starts": [
+    "minecraft:ruined_portal_nether",
+    "minecraft:fortress",
+    "starmute:pipe_only"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:silverfish",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "surface_builder": "starmute:infernal_dunes",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ],
+    "liquid": [
+      "starmute:infernal_cave"
+    ]
+  },
+  "features": [
+    [      "starmute:infernal_dunes/gravel_delta"],
+    [
+    ],
+    [
+      //"starmute:infernal_dunes/gravel_towers",
+      //"starmute:infernal_dunes/gravel_spread",
+      "starmute:infernal_dunes/biased_columns",
+      "starmute:infernal_dunes/biased_columns",
+      "starmute:infernal_dunes/biased_columns",
+      "starmute:infernal_dunes/biased_columns",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_p",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_columns_pb",
+      "starmute:infernal_dunes/biased_slime",
+      "starmute:infernal_dunes/biased_large_brown_shrooms",
+      "starmute:infernal_dunes/biased_large_red_shrooms",
+      "starmute:infernal_dunes/patch_fire"
+    ],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_delta",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed_double",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_quartz_nether",
+      //"starmute:infernal_dunes/ore_redstone_nether",
+      "minecraft:ore_debris_large",
+      "minecraft:ore_debris_small",
+      //"starmute:infernal_dunes/pipe_blobs",
+      "starmute:infernal_dunes/patch_deadbush",
+      "starmute:infernal_dunes/patch_deadbush",
+      "starmute:infernal_dunes/patch_deadbush",
+      "starmute:infernal_dunes/patch_deadbush",
+       "starmute:infernal_dunes/biased_brown_mushrooms",
+      "starmute:infernal_dunes/biased_red_mushrooms"
+      //"starmute:infernal_dunes/brown_mushrooms",
+      //"starmute:infernal_dunes/brown_mushrooms",
+      //"starmute:infernal_dunes/brown_mushrooms",
+      //"starmute:infernal_dunes/brown_mushrooms",
+      //"starmute:infernal_dunes/brown_mushrooms"
+    ],
+    [
+      "minecraft:spring_lava_double",
+      "starmute:infernal_dunes/extra_weeping_vines"
+    ]
+  ],
+  "scale": -0.03,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.nether_wastes",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "fog_color": 7627595,
+    "water_color": 4159204,
+    "water_fog_color": 4341314,
+    "sky_color": 13590016,
+    "particle": {
+      "options": {
+        "type": "minecraft:dust",
+        "r": 0.9,
+        "g": 0.6,
+        "b": 0.4,
+        "scale": 1.0
+      },
+      "probability": 0.004
+    }
+  },
+  "precipitation": "none",
+  "category": "nether",
+  "depth": 0.095
+}

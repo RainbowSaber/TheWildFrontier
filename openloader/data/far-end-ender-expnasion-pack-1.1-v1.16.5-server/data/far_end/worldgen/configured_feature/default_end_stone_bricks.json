@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "air",
+        "probability": 0.5
+      }
+    },
+    "feature": {
+      "type": "minecraft:emerald_ore",
+      "config": {
+        "state": {
+          "Name": "minecraft:end_stone_bricks"
+        },
+        "target": {
+          "Name": "minecraft:end_stone"
+        }
+      }
+    }
+  }
+}

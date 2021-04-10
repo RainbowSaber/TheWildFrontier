@@ -3,7 +3,7 @@
 portal_searching_range = 128
 #Indirect Loading Radius Cap
 #Range: 3 ~ 20
-indirect_loading_radius_cap = 8
+indirect_loading_radius_cap = 4
 #Load Remote Chunks Actively
 actively_load_remote_chunks = true
 #Teleportation Debug
@@ -13,11 +13,11 @@ multi_threaded_nether_portal_searching = true
 #Loose Serve Side Anti Hack Movement Check
 loose_movement_check = false
 #Enable Alternate Dimensions
-enable_alternate_dimensions = true
+enable_alternate_dimensions = false
 #Nether Portal Mode
 #Allowed Values: normal, vanilla, adaptive, disabled
 nether_portal_mode = "normal"
 #End Portal Mode
 #Allowed Values: normal, toObsidianPlatform, scaledView, vanilla
-end_portal_mode = "normal"
+end_portal_mode = "vanilla"
 

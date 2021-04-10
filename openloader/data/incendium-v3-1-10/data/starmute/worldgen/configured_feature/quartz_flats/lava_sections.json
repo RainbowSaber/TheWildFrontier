@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "liquid",
+        "probability": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:nope",
+          "config": {
+          }
+        },
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "Name": "minecraft:lava",
+              "Properties": {
+                "level": "0"
+              }
+            },
+            "place_on": [
+              {
+                "Name": "minecraft:lava",
+                "Properties": {
+                  "level": "0"
+                }
+              }
+            ],
+            "place_in": [
+              {
+                "Name": "minecraft:smooth_quartz"
+              }
+            ],
+            "place_under": [
+              {
+                "Name": "minecraft:air"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

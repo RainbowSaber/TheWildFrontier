@@ -27,6 +27,13 @@
         "negate": false,
         "value": "starmute:warped_plains"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "far_end:snowy_warped_forest"
+      }
     ]
   ]
 }

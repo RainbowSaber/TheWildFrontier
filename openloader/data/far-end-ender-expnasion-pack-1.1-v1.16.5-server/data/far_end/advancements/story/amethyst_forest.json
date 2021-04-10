@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "title": "Prismarine Forest",
+    "description": "A Prismarine forest dominated by the evil troops",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "far_end:story/snowy_warped_forest",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "far_end:amethyst_forest"
+        }
+      }
+    }
+  }
+}

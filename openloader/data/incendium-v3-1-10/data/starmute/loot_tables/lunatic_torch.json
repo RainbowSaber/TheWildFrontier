@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soul_torch",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{"text":"Emits a strange light which","color":"#aaffcc","italic":"false"},
+                      {"text":"blinds nearby desert blazes","color":"#aaffcc","italic":"false"},
+                        {"text":"if kept in your inventory","color":"#aaffcc","italic":"false"}],
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:47,Enchantments:[{}],display:{Name:'[{\"translate\":\"Torch of Lunacy\",\"italic\":false,\"color\":\"#aaccff\"}]'},Tags:[\"blinding\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

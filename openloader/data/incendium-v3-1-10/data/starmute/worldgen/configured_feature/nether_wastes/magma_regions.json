@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 5000,
+        "noise_factor": 140,
+        "noise_offset": -0.35
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:range",
+                    "config": {
+                      "maximum": 128,
+                      "bottom_offset": 35,
+                      "top_offset": 0
+                   }
+                },
+                "feature": {
+                  "type": "minecraft:netherrack_replace_blobs",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:netherrack"
+                    },
+                    "target": {
+                      "Name": "minecraft:netherrack"
+                    },
+                    "radius": {
+                      "base": 0,
+                      "spread": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

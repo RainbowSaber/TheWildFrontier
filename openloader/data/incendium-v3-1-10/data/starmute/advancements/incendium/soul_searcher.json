@@ -1,0 +1,291 @@
+{
+  "parent": "starmute:incendium/explore_variants",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots",
+      "nbt": "{Enchantments:[{id:\"protection\",lvl:4}]}"
+    },
+    "title": {
+      "translate": "Soul Searcher"
+    },
+    "description": 
+    {
+      "translate": "Discover every single Nether biome"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "starmute:infernal_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:infernal_dunes"
+        }
+      }
+    },
+    "starmute:quartz_flats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:quartz_flats"
+        }
+      }
+    },
+    "starmute:toxic_heap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:toxic_heap"
+        }
+      }
+    },
+    "starmute:withered_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:withered_forest"
+        }
+      }
+    },
+    "starmute:crimson_forest_s": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:crimson_forest_s"
+        }
+      }
+    },
+    "starmute:nether_wart_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:nether_wart_valley"
+        }
+      }
+    },
+    "starmute:warped_forest_d": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:warped_forest_d"
+        }
+      }
+    },
+    "starmute:soul_sand_valley_d": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:soul_sand_valley_d"
+        }
+      }
+    },
+    "starmute:basalt_deltas_cooled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:basalt_deltas_cooled"
+        }
+      }
+    },
+    "starmute:basalt_deltas_ex": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:basalt_deltas_ex"
+        }
+      }
+    },
+    "minecraft:nether_wastes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:nether_wastes"
+        }
+      }
+    },
+    "minecraft:soul_sand_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:soul_sand_valley"
+        }
+      }
+    },
+    "minecraft:warped_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:warped_forest"
+        }
+      }
+    },
+    "minecraft:crimson_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:crimson_forest"
+        }
+      }
+    },
+    "minecraft:basalt_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:basalt_deltas"
+        }
+      }
+    },
+    "starmute:warped_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:warped_plains"
+        }
+      }
+    },
+    "starmute:crimson_forest_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:crimson_forest_z"
+        }
+      }
+    },
+    "starmute:quartz_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:quartz_hills"
+        }
+      }
+    },
+    "starmute:withered_forest_a": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:withered_forest_a"
+        }
+      }
+    },
+    "starmute:cursed_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:cursed_forest"
+        }
+      }
+    },
+    "starmute:polluted_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:polluted_dunes"
+        }
+      }
+    },
+    "starmute:purified_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:purified_dunes"
+        }
+      }
+    },
+    "starmute:toxic_springs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:toxic_springs"
+        }
+      }
+    },
+    "starmute:voltaic_heap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:voltaic_heap"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "starmute:crimson_forest_s"
+    ],
+    [
+      "starmute:warped_forest_d"
+    ],
+    [
+      "starmute:soul_sand_valley_d"
+    ],
+    [
+      "starmute:basalt_deltas_ex"
+    ],
+    [
+      "starmute:basalt_deltas_cooled"
+    ],
+    [
+      "starmute:nether_wart_valley"
+    ],
+    [
+      "minecraft:nether_wastes"
+    ],
+    [
+      "minecraft:soul_sand_valley"
+    ],
+    [
+      "minecraft:warped_forest"
+    ],
+    [
+      "minecraft:crimson_forest"
+    ],
+    [
+      "minecraft:basalt_deltas"
+    ],
+    [
+      "starmute:infernal_dunes"
+    ],
+    [
+      "starmute:quartz_flats"
+    ],
+    [
+      "starmute:toxic_heap"
+    ],
+    [
+      "starmute:withered_forest"
+    ],
+    [
+      "starmute:warped_plains"
+    ],
+    [
+      "starmute:crimson_forest_z"
+    ],
+    [
+      "starmute:quartz_hills"
+    ],
+    [
+      "starmute:withered_forest_a"
+    ],
+    [
+      "starmute:cursed_forest"
+    ],
+    [
+      "starmute:polluted_dunes"
+    ],
+    [
+      "starmute:purified_dunes"
+    ],
+    [
+      "starmute:toxic_springs"
+    ],
+    [
+      "starmute:voltaic_heap"
+    ]
+  ]
+}

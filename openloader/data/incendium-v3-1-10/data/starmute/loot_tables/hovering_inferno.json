@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Wing:1b,display:{Name:'[{\"translate\":\"Infernal Wing\",\"italic\":false,\"color\":\"#ff3333\"}]'},Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-120724,30577,113347,-61154],Slot:chest,Name:\"generic.armor\"},{AttributeName:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-120724,30577,113347,-61154],Slot:chest,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.movement_speed\",Amount:-0.05,Operation:1,UUID:[I;-120724,30577,113347,-61154],Slot:chest,Name:\"generic.movement_speed\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "starmute:charm_of_extinguishing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "starmute:firestorm",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "starmute:prismatic_shield",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "starmute:necrotic_shield",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

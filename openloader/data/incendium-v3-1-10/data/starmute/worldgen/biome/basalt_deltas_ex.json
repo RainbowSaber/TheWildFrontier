@@ -1,0 +1,132 @@
+{
+  "starts": [
+    "minecraft:ruined_portal_nether",
+    "starmute:pipe_start"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:ghast",
+        "weight": 50,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:blaze",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "surface_builder": "starmute:basalt_deltas_cooled",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ],
+    "liquid": [
+      "starmute:ex_caves"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    ["minecraft:delta",
+      "minecraft:small_basalt_columns",
+      "minecraft:large_basalt_columns",
+      "starmute:basalt_pile",
+      "starmute:extra_basalt_columns",
+    "minecraft:basalt_blobs",
+      "minecraft:blackstone_blobs",
+      //"starmute:texturing_basalt",
+      //"starmute:basalt_deltas/magma_regions",
+      "starmute:basalt_deltas/magma_regions_new"
+      //"starmute:texturing_polished",
+    ],
+    [
+      "starmute:extra_lava",
+      "starmute:basalt_deltas/flood"
+
+
+    ],
+    [
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_delta",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "starmute:polished_blobs",
+      "minecraft:spring_closed_double",
+      "minecraft:ore_gold_deltas",
+      "minecraft:ore_gold_deltas",
+      "minecraft:ore_quartz_deltas",
+      "minecraft:ore_debris_large",
+      "minecraft:ore_debris_small",
+      "starmute:surface_debris"
+    ],
+    [
+      "minecraft:spring_lava_double"
+    ]
+  ],
+  "scale": 0.15,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "fog_color": 8215650,
+    "water_color": 6116194,
+    "water_fog_color": 4341314,
+    "sky_color": 7254527,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.2
+    }
+  },
+  "precipitation": "none",
+  "category": "nether",
+  "depth": -0.1
+}

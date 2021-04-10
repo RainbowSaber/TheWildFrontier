@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 12000,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 10,
+                "noise_factor": 125,
+                "noise_offset": 0.5
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:chance",
+                  "config": {
+                    "chance": 10
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_multilayer",
+                      "config": {
+                        "count": 1
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:netherrack_replace_blobs",
+                      "config": {
+                        "state": {
+                          "Name": "minecraft:netherrack"
+                        },
+                        "target": {
+                          "Name": "minecraft:crimson_nylium"
+                        },
+                        "radius": {
+                          "base": 0,
+                          "spread": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

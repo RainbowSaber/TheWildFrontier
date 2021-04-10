@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+                "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 7000,
+        "noise_factor": 150,
+        "noise_offset": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+
+    "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 66,
+                "bottom_offset": 63,
+                "top_offset": 60
+              }
+            },
+            "feature": {
+              "config": {
+                "target": {
+                  "tag": "minecraft:base_stone_nether",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:magma_block"
+                },
+                "size": 10
+              },
+              "type": "minecraft:ore"
+            }
+          }
+        }
+      }
+    }
+  }
+}

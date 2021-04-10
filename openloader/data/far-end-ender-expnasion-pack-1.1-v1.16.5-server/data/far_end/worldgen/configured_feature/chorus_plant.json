@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 4
+      }
+    },
+    "feature": "minecraft:chorus_plant"
+  }
+}

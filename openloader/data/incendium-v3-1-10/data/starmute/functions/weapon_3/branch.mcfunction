@@ -1,0 +1,14 @@
+execute if score #hit in.fire_laser matches 0 positioned ~-0.05 ~-0.05 ~-0.05 as @e[type=#starmute:mobs,tag=!laser,dx=0,sort=nearest] if score #hit in.fire_laser matches 0 positioned ~-0.85 ~-0.85 ~-0.85 if entity @s[dx=0] run function starmute:weapon_3/hit_entity_chain
+scoreboard players add #distance2 in.fire_laser 1
+particle minecraft:block blue_ice ~ ~ ~ 0.01 0.01 0.01 0.0 1 force
+execute if predicate starmute:40_percent run particle minecraft:dust 0 0.4 1 1 ~ ~ ~ 0.01 0.01 0.01 0.0 1 force
+execute if score #hit in.fire_laser matches 0 if predicate starmute:0_4_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 facing entity @e[type=#starmute:mobs,tag=!laser,distance=..10,sort=nearest,limit=1] eyes if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~-18 ~ if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~18 ~ if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~ ~-18 if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:2_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~ ~18 if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch
+execute if score #hit in.fire_laser matches 0 if predicate starmute:10_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~-18 ~ if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch_straight
+execute if score #hit in.fire_laser matches 0 if predicate starmute:10_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~18 ~ if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch_straight
+execute if score #hit in.fire_laser matches 0 if predicate starmute:10_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~ ~-18 if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch_straight
+execute if score #hit in.fire_laser matches 0 if predicate starmute:10_percent if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~ ~18 if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch_straight
+execute if score #hit in.fire_laser matches 0 if predicate starmute:70_percent if score #distance2 in.fire_laser matches ..1750 positioned ^ ^ ^0.2 rotated ~ ~ if block ~ ~ ~ #starmute:airs run function starmute:weapon_3/branch

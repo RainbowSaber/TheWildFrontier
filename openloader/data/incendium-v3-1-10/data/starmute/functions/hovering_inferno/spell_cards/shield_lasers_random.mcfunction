@@ -1,0 +1,2 @@
+execute if predicate starmute:50_percent run function starmute:hovering_inferno/spell_cards/shield_lasers_2
+execute if predicate starmute:50_percent run function starmute:hovering_inferno/spell_cards/shield_lasers

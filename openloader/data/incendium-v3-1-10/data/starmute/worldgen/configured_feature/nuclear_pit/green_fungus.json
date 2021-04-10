@@ -1,0 +1,30 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "hat_state": {
+          "Name": "minecraft:lime_terracotta"
+        },
+        "decor_state": {
+          "Name": "minecraft:shroomlight"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:yellow_stained_glass"
+        },
+        "stem_state": {
+          "Name": "minecraft:green_terracotta"
+        }
+      },
+      "type": "minecraft:huge_fungus",
+      "name": "starmute:sparse_crimson_fungi"
+    },
+    "decorator": {
+      "config": {
+        "count": 6
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

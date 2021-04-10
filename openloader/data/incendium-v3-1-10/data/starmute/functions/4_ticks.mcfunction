@@ -1,0 +1,2 @@
+execute at @e[type=player] run execute as @e[type=vex,tag=babyghast,distance=..10] at @s run execute if entity @e[type=item,nbt={Item:{id:"minecraft:fire_charge"}},distance=..2.5] unless entity @s[tag=following] run function starmute:baby_ghast/eat
+schedule function starmute:4_ticks 2t

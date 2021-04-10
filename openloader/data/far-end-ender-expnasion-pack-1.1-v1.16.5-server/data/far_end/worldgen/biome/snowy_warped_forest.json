@@ -1,0 +1,120 @@
+{
+  "surface_builder": "far_end:end_warped",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": -0.5,
+  "downfall": 0.4,
+  "precipitation": "snow",
+  "temperature_modifier": "frozen",
+  "category": "icy",
+  "player_spawn_friendly": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 8221366,
+    "water_fog_color": 5653385,
+    "grass_color": 30592,
+    "foliage_color": 105867,
+    "ambient_sound": "ambient.warped_forest.loop",
+    "mood_sound": {
+      "sound": "ambient.warped_forest.mood",
+      "tick_delay": 100,
+      "block_search_extent": 10,
+      "offset": 100
+    },
+    "additions_sound": {
+      "sound": "ambient.warped_forest.additions",
+      "tick_chance": 0.1
+    },
+    "music": {
+      "sound": "music.nether.crimson_forest",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "warped_spore"
+      },
+      "probability": 0.05
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 7
+      },
+      {
+        "type": "minecraft:hoglin",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 7
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 7
+      },
+      {
+        "type": "alexsmobs:enderiophage",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "alexsmobs:warped_toad",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "alexsmobs:fly",
+        "weight": 2,
+        "minCount": 3,
+        "maxCount": 8
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:end_carver"
+    ]
+  },
+  "features": [
+    [
+      "far_end:warped_snow_lake"
+    ],
+    [
+      "minecraft:ore_quartz_nether",
+      "minecraft:freeze_top_layer",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_double",
+      "minecraft:lake_lava",
+      "minecraft:nether_sprouts",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_gold_nether",
+      "minecraft:weeping_vines",
+      "minecraft:twisting_vines",
+      "minecraft:warped_fungi",
+      "minecraft:warped_fungi_planted",
+      "minecraft:warped_forest_vegetation",
+      "far_end:warped_pile",
+      "far_end:warped_test",
+      "minecraft:end_spike"
+    ]
+  ]
+}

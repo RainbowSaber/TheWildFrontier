@@ -1,0 +1,15 @@
+{
+  "name": "end_depository/starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "far_end:end_depository/main",
+        "processors": "far_end:end_depository/treasure_blocks"
+      }
+    }
+  ]
+}

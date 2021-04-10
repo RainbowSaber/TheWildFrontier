@@ -1,0 +1,130 @@
+{
+  "surface_builder": "far_end:end_nether_forest",
+  "depth": 0.125,
+  "scale": 1.5,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "the_end",
+  "player_spawn_friendly": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 16636149,
+    "water_color": 15979007,
+    "water_fog_color": 329011,
+    "grass_color": 3892594,
+    "foliage_color": 11392511,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "ambient.underwater.loop.additions.rare",
+      "tick_delay": 100,
+      "block_search_extent": 10,
+      "offset": 100
+    },
+    "additions_sound": {
+      "sound": "ambient.underwater.loop.additions.ultra_rare",
+      "tick_chance": 0.01
+    },
+    "music": {
+      "sound": "music.nether.nether_waste",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "dripping_obsidian_tear"
+      },
+      "probability": 0.005
+    }
+  },
+  "starts": [
+    "minecraft:stronghold",
+    "minecraft:end_city"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "alexsmobs:enderiophage",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "alexsmobs:mimicube",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "alexsmobs:cockroach",
+        "weight": 7,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:elder_guardian",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 200,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:guardian",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "alexsmobs:blobfish",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:end_carver"
+    ]
+  },
+  "features": [
+    [
+      "far_end:prismarine_forest_lake"
+    ],
+    [
+      "minecraft:dark_forest_vegetation_red",
+      "minecraft:dark_forest_vegetation_brown",
+      "minecraft:dark_oak",
+      "minecraft:chorus_plant",
+      "far_end:end_stone_tree"
+    ],
+    [
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_crimson_roots",
+      "minecraft:patch_waterlilly",
+      "minecraft:seagrass_normal",
+      "far_end:flower",
+      "far_end:wood_pile",
+      "far_end:end_diamond",
+      "far_end:amethyst",
+      "minecraft:end_spike"
+    ]
+  ]
+}

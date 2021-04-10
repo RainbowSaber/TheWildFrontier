@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 1,
+        "extra_count": 75,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -10,
+                "noise_factor": 175,
+                "noise_offset": 0.275
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "maximum": 80,
+                    "bottom_offset": 32,
+                    "top_offset": 0
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:spring_feature",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:lava",
+                      "Properties": {
+                        "falling": "true"
+                      }
+                    },
+                    "rock_count": 5,
+                    "hole_count": 3,
+                    "required_block_below": true,
+                    "valid_blocks": [
+                      "minecraft:air",
+                      "minecraft:netherrack"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

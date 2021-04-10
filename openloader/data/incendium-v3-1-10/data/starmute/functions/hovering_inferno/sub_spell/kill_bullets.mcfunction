@@ -1,0 +1,1 @@
+execute if score %inferno in.inf_health matches 200.. run execute as @e[type=shulker_bullet,distance=..100] run data merge entity @s {Motion:[0.0,-6.0,0.0],power:[0.0,-1.0,0.0]}

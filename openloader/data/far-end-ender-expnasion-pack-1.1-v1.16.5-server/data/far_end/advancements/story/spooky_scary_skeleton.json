@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.nether.get_wither_skull.title"
+    },
+    "description": {
+      "translate": "advancements.nether.get_wither_skull.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "far_end:story/ashfall_marshland",
+  "criteria": {
+    "wither_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "far_end:far_end"
+          }
+        },
+        "items": [
+          {
+            "item": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wither_skull"
+    ]
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:nope",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:random_patch",
+              "config": {
+                "can_replace": false,
+                "project": false,
+                "need_water": false,
+                "xspread": 1,
+                "yspread": 40,
+                "zspread": 1,
+                "tries": 500,
+                "state_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:lime_stained_glass"
+                  }
+                },
+                "block_placer": {
+                  "type": "minecraft:column_placer",
+                  "min_size": 1,
+                  "extra_size": 1
+                },
+                "whitelist": [
+                  {
+                    "Name": "minecraft:lime_stained_glass"
+                  }
+                ],
+                "blacklist": []
+              }
+            }
+          }
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "can_replace": false,
+            "project": false,
+            "need_water": false,
+            "xspread": 1,
+            "yspread": 13,
+            "zspread": 2,
+            "tries": 5000,
+            "state_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            },
+            "block_placer": {
+              "type": "minecraft:column_placer",
+              "min_size": 3,
+              "extra_size": 2
+            },
+            "whitelist": [
+              {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            ],
+            "blacklist": []
+          }
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "can_replace": false,
+            "project": false,
+            "need_water": false,
+            "xspread": 2,
+            "yspread": 13,
+            "zspread": 1,
+            "tries": 5000,
+            "state_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            },
+            "block_placer": {
+              "type": "minecraft:column_placer",
+              "min_size": 3,
+              "extra_size": 2
+            },
+            "whitelist": [
+              {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            ],
+            "blacklist": []
+          }
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "can_replace": false,
+            "project": false,
+            "need_water": false,
+            "xspread": 2,
+            "yspread": 9,
+            "zspread": 2,
+            "tries": 5000,
+            "state_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            },
+            "block_placer": {
+              "type": "minecraft:column_placer",
+              "min_size": 3,
+              "extra_size": 1
+            },
+            "whitelist": [
+              {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            ],
+            "blacklist": []
+          }
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "can_replace": false,
+            "project": false,
+            "need_water": false,
+            "xspread": 3,
+            "yspread": 2,
+            "zspread": 2,
+            "tries": 5000,
+            "state_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            },
+            "block_placer": {
+              "type": "minecraft:column_placer",
+              "min_size": 3,
+              "extra_size": 1
+            },
+            "whitelist": [
+              {
+                "Name": "minecraft:lime_stained_glass"
+              },
+              {
+                "Name": "minecraft:yellow_stained_glass"
+              },
+              {
+                "Name": "minecraft:lime_terracotta"
+              },
+              {
+                "Name": "minecraft:green_terracotta"
+              }
+            ],
+            "blacklist": []
+          }
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "can_replace": false,
+            "project": false,
+            "need_water": false,
+            "xspread": 2,
+            "yspread": 2,
+            "zspread": 3,
+            "tries": 5000,
+            "state_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:lime_stained_glass"
+              }
+            },
+            "block_placer": {
+              "type": "minecraft:column_placer",
+              "min_size": 3,
+              "extra_size": 1
+            },
+            "whitelist": [
+              {
+                "Name": "minecraft:lime_stained_glass"
+              },
+              {
+                "Name": "minecraft:yellow_stained_glass"
+              },
+              {
+                "Name": "minecraft:lime_terracotta"
+              },
+              {
+                "Name": "minecraft:green_terracotta"
+              }
+            ],
+            "blacklist": []
+          }
+        }
+      }
+    ],
+    "default": {
+      "type": "minecraft:no_op",
+      "config": {}
+    }
+  }
+}

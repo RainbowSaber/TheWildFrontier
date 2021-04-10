@@ -1,0 +1,119 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:dust",
+        "r": 0.6,
+        "g": 0.5,
+        "b": 0.0,
+        "scale": 1.8
+      },
+      "probability": 0.004
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "sky_color": 12763856,
+    "fog_color": 3550233,
+    "water_color": 4159204,
+    "water_fog_color": 4341314
+  },
+  "surface_builder": "starmute:cursed_forest",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [ 
+      "starmute:scorched_remains/blackstone_regions",
+      "starmute:scorched_remains/cursed_gilded",
+      "starmute:sparse_crimson_fungi",
+      "minecraft:crimson_forest_vegetation",
+      "starmute:scorched_remains/petrified_tree_cursed",
+      "starmute:scorched_remains/corrupt_stems",
+      "starmute:scorched_remains/corrupt_wart_blocks",
+    "starmute:scorched_remains/corrupt_stems",
+      "starmute:scorched_remains/corrupt_wart_blocks"],
+    [],
+    [
+      "starmute:scorched_remains/withered_delta"],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_delta",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed_double",
+      "minecraft:ore_debris_large",
+      "minecraft:ore_debris_small",
+      "starmute:scorched_remains/gilded_blackstone_blobs",
+      "starmute:scorched_remains/blackstone_blobs",
+      "minecraft:ore_gold_deltas",
+      "minecraft:ore_quartz_deltas"
+    ],
+    [
+    ]
+  ],
+  "starts": [
+    "minecraft:ruined_portal_nether"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:piglin",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:wither_skeleton": {
+      "energy_budget": 0.2,
+      "charge": 0.4
+    },
+    "minecraft:piglin": {
+      "energy_budget": 0.2,
+      "charge": 0.4
+    }
+  },
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "nether",
+  "depth": 0.1,
+  "scale": 0.2
+}

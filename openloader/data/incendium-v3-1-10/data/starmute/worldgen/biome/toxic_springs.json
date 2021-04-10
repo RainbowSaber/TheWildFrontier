@@ -1,0 +1,158 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.02
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:dust",
+        "r": 0.5,
+        "g": 0.9,
+        "b": 0.1,
+        "scale": 1.0
+      },
+      "probability": 0.01
+    },
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "sky_color": 7254527,
+    "fog_color": 7303732,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "surface_builder": "starmute:toxic_springs",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ],
+    "liquid": [
+      "starmute:maximum_caves"
+    ]
+  },
+  "features": [
+    [ //"starmute:nuclear_pit/concreto3",
+      //"starmute:nuclear_pit/forced_spikes",
+      //"starmute:nuclear_pit/forced_blobs",
+      "starmute:nuclear_pit/fix"],
+    [],
+    [//"starmute:nuclear_pit/spikes_rare"
+    ],
+    [],
+    [],
+    ["starmute:nuclear_pit/magma_delta"
+     //"starmute:nuclear_pit/towers"
+   ],
+    [],
+    [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_quartz_nether",
+      "minecraft:ore_debris_large",
+      "minecraft:ore_debris_small",
+      //"starmute:nuclear_pit/replace_snow",
+      //"starmute:nuclear_pit/replace_ice",
+      "starmute:nuclear_pit/lime_blobs",
+      "starmute:nuclear_pit/terracotta_fungus_bottom",
+      "starmute:nuclear_pit/terracotta_fungus_bottom2",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      "starmute:nuclear_pit/terracotta_fungus_top",
+      //"starmute:nuclear_pit/green_fungus",
+      "starmute:nuclear_pit/pipe_blobs",
+      "starmute:nuclear_pit/pipe_blobs2"
+    ],
+    [
+      "starmute:nuclear_pit/replace_stalag",
+      "minecraft:spring_lava",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "starmute:extra_lava_half",
+      "starmute:nuclear_pit/rare_slime_pile"
+      //"starmute:nuclear_pit/replace_ysg",
+      //"starmute:nuclear_pit/replace_magma"
+    ]
+  ],
+  "starts": [
+    "minecraft:ruined_portal_nether",
+    "minecraft:fortress",
+    "starmute:toxic_structs"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:phantom",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 90,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+
+    "minecraft:phantom": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:vex": {
+      "energy_budget": 0.15,
+      "charge": 1.0
+    }
+  },
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "nether",
+  "depth": 0.0,
+  "scale": 0.8
+}

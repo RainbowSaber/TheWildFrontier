@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:village",
+  "config": {
+    "start_pool": "far_end:end_depository/starts",
+    "size": 6
+  }
+}

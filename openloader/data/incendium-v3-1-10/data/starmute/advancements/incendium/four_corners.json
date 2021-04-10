@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "orange_banner",
+      "nbt": "{BlockEntityTag:{Patterns:[{Pattern:hh,Color:14},{Pattern:gru,Color:4},{Pattern:cbo,Color:15},{Pattern:bo,Color:15},{Pattern:br,Color:15},{Pattern:tl,Color:15},{Pattern:bri,Color:15}]}}"
+    },
+    "title": {
+      "translate": "GLORY TO INCENDZKA!"
+    },
+    "description": 
+    {
+      "translate":"Stand at the intersection of four biomes in the Nether"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/explore_variants",
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

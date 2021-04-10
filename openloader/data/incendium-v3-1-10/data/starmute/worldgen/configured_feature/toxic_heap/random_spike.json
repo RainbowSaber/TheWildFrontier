@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.15,
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count",
+              "config": {
+                "count": 100
+              }
+            },
+            "feature": "starmute:toxic_heap/spike"
+          }
+        }
+      },
+      {
+        "chance": 0.15,
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count",
+              "config": {
+                "count": 100
+              }
+            },
+            "feature": "starmute:toxic_heap/spike_above_test"
+          }
+        }
+      },
+      {
+        "chance": 0.15,
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count",
+              "config": {
+                "count": 100
+              }
+            },
+            "feature": "starmute:toxic_heap/spike_slime_core"
+          }
+        }
+      },
+      {
+        "chance": 0.15,
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count",
+              "config": {
+                "count": 100
+              }
+            },
+            "feature": "starmute:toxic_heap/spike_terra_core"
+          }
+        }
+      }
+    ],
+    "default": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count",
+          "config": {
+            "count": 100
+          }
+        },
+        "feature": "starmute:toxic_heap/spike_tiny"
+      }
+    }
+  }
+}

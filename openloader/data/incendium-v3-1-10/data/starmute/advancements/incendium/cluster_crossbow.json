@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{Weapon:35}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "starmute:artifact/patron/cluster/fire"
+  }
+}

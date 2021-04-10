@@ -1,0 +1,2 @@
+execute if score %inferno in.inf_health matches 120.. run execute as @e[type=shulker_bullet,distance=..100] at @s if predicate starmute:10_percent run summon fireball ~ ~-0.25 ~ {Motion:[0.0,0.0,0.0],power:[0.0,-0.07,0.0]}
+execute as @e[type=shulker_bullet,distance=..100] run data merge entity @s {Motion:[0.0,-6.0,0.0],power:[0.0,-1.0,0.0]}

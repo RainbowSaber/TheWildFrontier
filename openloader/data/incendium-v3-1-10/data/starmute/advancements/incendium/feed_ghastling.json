@@ -1,0 +1,27 @@
+{
+  "parent": "starmute:incendium/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [],
+        "item": {
+          "item": "minecraft:fire_charge"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vex",
+              "nbt": "{Tags:[\"babyghast\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "starmute:baby_ghast/feed"
+  }
+}

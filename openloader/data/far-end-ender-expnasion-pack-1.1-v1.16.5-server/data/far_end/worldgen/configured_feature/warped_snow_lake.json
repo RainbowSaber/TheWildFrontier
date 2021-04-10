@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 2
+      }
+    },
+    "feature": {
+      "type": "minecraft:lake",
+      "config": {
+        "state": {
+          "Name": "minecraft:snow_block"
+        }
+      }
+    }
+  }
+}

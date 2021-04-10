@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "redstone_lamp"
+    },
+    "title": {
+      "translate": "Border of Life"
+    },
+    "description": 
+    {
+      "translate":"Kill a Desert Blaze on the boundary of light and dark to get both of its drops"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/dune_blaze",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze",
+          "nbt": "{Tags:[\"dunes\"]}",
+          "location": {
+            "light": {
+              "light": {
+                "min": 4,
+                "max": 5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

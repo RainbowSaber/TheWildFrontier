@@ -1,0 +1,112 @@
+{
+  "surface_builder": "far_end:end_swamp",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0.9,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "player_spawn_friendly": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 15068927,
+    "water_fog_color": 12895439,
+    "grass_color": 14606046,
+    "foliage_color": 12763842,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 100,
+      "block_search_extent": 10,
+      "offset": 100
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.05
+    },
+    "music": {
+      "sound": "music.nether.basalt_deltas",
+      "min_delay": 100,
+      "max_delay": 100,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "white_ash"
+      },
+      "probability": 0.05
+    }
+  },
+  "starts": [
+    "minecraft:stronghold"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:guardian",
+        "weight": 50,
+        "minCount": 3,
+        "maxCount": 7
+      },
+      {
+        "type": "minecraft:wither",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 90,
+        "minCount": 3,
+        "maxCount": 7
+      },
+      {
+        "type": "minecraft:ghast",
+        "weight": 40,
+        "minCount": 3,
+        "maxCount": 7
+      },
+      {
+        "type": "alexsmobs:enderiophage",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "alexsmobs:cave_centipede",
+        "weight": 56,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:end_carver"
+    ]
+  },
+  "features": [
+    [
+      "far_end:swamp_lake",
+      "minecraft:basalt_pillar",
+      "minecraft:small_basalt_columns"
+    ],
+    [
+      "minecraft:patch_waterlilly",
+      "minecraft:seagrass_swamp",
+      "minecraft:sea_pickle",
+      "far_end:swamp_tree",
+      "far_end:swamp_flower",
+      "far_end:swamp_delta",
+      "minecraft:patch_grass_forest",
+      "minecraft:basalt_blobs",
+      "far_end:swamp_magma",
+      "minecraft:end_spike",
+      "far_end:swamp_tuff"
+    ]
+  ]
+}

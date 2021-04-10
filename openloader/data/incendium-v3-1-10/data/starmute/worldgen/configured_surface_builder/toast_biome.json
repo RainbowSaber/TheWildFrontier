@@ -1,0 +1,15 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:gravel"
+    },
+    "under_material": {
+      "Name": "minecraft:netherrack"
+    },
+    "underwater_material": {
+      "Name": "minecraft:netherrack"
+    }
+  },
+  "type": "minecraft:nether_forest",
+  "name": "starmute:nuclear_pit"
+}

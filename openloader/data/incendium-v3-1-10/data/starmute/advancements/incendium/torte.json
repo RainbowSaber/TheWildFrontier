@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "bone"
+    },
+    "title": {
+      "translate": "You Fool!"
+    },
+    "description": 
+    {
+      "translate": "Kill the skeleton chef Torte and loot his kitchen"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/quartz_flats",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "location": {
+            "biome": "starmute:quartz_flats",
+            "feature": "bastion_remnant"
+          },
+          "equipment": {
+            "mainhand": {
+              "item": "cake"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "red_sand"
+    },
+    "title": {
+      "translate": "Darude - Firestorm"
+    },
+    "description": 
+    {
+      "translate":"Experience the blazing heat of the Infernal Dunes"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/root",
+  "criteria": {
+      "starmute:infernal_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:infernal_dunes"
+        }
+      }
+    },
+    "starmute:purified_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:purified_dunes"
+        }
+      }
+    },
+    "starmute:polluted_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "starmute:polluted_dunes"
+        }
+      }
+    }
+    },
+    "requirements": [
+    [
+      "starmute:infernal_dunes",
+      "starmute:purified_dunes",
+      "starmute:polluted_dunes"
+    ]
+  ]
+}

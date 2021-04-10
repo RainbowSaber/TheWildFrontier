@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:count",
+                  "config": {
+                    "count": 16
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:count_multilayer",
+                  "config": {
+                    "count": 16
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:square",
+              "config": {}
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 120.11,
+                "noise_offset": 0.1
+              }
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 120.11,
+                "noise_offset": -0.1
+              }
+            }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:simple_block",
+      "config": {
+        "to_place": {
+          "Name": "minecraft:soul_fire"
+        },
+        "place_on": [
+          {
+            "Name": "minecraft:smooth_quartz"
+          }
+        ],
+        "place_in": [
+          {
+            "Name": "minecraft:smooth_quartz"
+          },
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "place_under": [
+          {
+            "Name": "minecraft:air"
+          }
+        ]
+      }
+    }
+  }
+}

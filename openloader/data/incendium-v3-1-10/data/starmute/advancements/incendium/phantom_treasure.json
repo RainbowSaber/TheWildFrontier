@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "phantom_membrane"
+    },
+    "title": {
+      "translate": "Phantom Menace"
+    },
+    "description": 
+    {
+      "translate": "Loot the treasures of a Phantom Nest"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "starmute:incendium/withered_forest",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "starmute:phantom/hopper"
+      }
+    }
+  }
+}

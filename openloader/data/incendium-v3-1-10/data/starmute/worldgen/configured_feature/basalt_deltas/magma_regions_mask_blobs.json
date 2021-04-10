@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "liquid",
+        "probability": 1.0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:range",
+          "config": {
+            "maximum": 128,
+            "bottom_offset": 109,
+            "top_offset": 115
+          }
+        },
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:magma_block"
+            },
+            "target": {
+              "Name": "minecraft:air"
+            },
+            "radius": {
+              "base": 0,
+              "spread":0
+            }
+          }
+        }
+      }
+    }
+  }
+}

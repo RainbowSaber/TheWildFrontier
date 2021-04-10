@@ -1,0 +1,10 @@
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/1] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/1
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/2] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/2
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/3] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/3
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/4] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/4
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/5] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/5
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/6] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/6
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/7] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/7
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/8] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/8
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/9] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/9
+execute as @e[type=end_crystal,tag=!fe.end_crystal_marked,predicate=far_end:location/crystal_pillar/10] at @s if block ~ ~-1 ~ minecraft:bedrock run function far_end:structures/exit_portal/crystal_location/10
