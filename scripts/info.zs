@@ -4,6 +4,13 @@ import crafttweaker.api.item.IItemStack;
 function i(m as IItemStack, s as string) as void {
 	JEI.addInfo(m, [s]);
 }
+// Better Storage
+i(<item:betterstorage:crate>, "Can store large quantities of items, when several crates are placed together their inventories join for efficient mass storage.");
+i(<item:betterstorage:reinforced_chest>, "Can be locked for additional security. Allows Storage of large quantities of items.");
+i(<item:betterstorage:locker>, "Vertically stackable Chest");
+i(<item:betterstorage:reinforced_locker>, "Can be locked for additional security. Allows Storage of large quantities of items.");
+i(<item:betterstorage:keyring>, "Can be used to store several keys in a single slot.");
+i(<item:betterstorage:cardboard_box>,"Allows portable Item Storage. Loses durability when picked up. It can be dyed.");
 
 //Modpacks Guide
 <item:minecraft:flint_and_steel>.addTooltip("Right click on glass to create a Mirror");
