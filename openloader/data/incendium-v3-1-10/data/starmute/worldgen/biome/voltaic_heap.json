@@ -108,6 +108,12 @@
         "weight": 90,
         "minCount": 1,
         "maxCount": 3
+      },
+      {
+        "type": "alexsmobs:warped_mosco",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [
@@ -132,6 +138,10 @@
     "minecraft:vex": {
       "energy_budget": 0.15,
       "charge": 1.0
+    },
+    "alexsmobs:warped_mosco": {
+      "energy_budget": 0.15,
+      "charge": 1.2
     }
   },
   "precipitation": "none",

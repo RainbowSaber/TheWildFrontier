@@ -119,7 +119,13 @@
         "weight": 15,
         "minCount": 4,
         "maxCount": 4
-      }
+      },
+            {
+              "type": "alexsmobs:dropbear",
+              "weight": 7,
+              "minCount": 1,
+              "maxCount":
+            }
     ],
     "creature": [
       {

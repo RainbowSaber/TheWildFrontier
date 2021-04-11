@@ -30,6 +30,12 @@
         "weight": 1,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "alexsmobs:soul_vulture",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
       }
     ]
   },
@@ -47,6 +53,10 @@
       "charge": 0.7
     },
     "minecraft:strider": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "alexsmobs:soul_vulture": {
       "energy_budget": 0.15,
       "charge": 0.7
     }

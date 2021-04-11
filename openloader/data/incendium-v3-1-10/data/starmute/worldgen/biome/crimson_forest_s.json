@@ -102,6 +102,12 @@
         "weight": 5,
         "minCount": 3,
         "maxCount": 4
+      },
+      {
+        "type": "alexsmobs:crimson_mosquito",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "creature": [

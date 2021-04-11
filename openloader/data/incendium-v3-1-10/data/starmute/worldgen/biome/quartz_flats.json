@@ -90,6 +90,12 @@
         "weight": 100,
         "minCount": 1,
         "maxCount": 5
+      },
+      {
+        "type": "alexsmobs:bone_serpent",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "creature": [
@@ -106,6 +112,10 @@
     "misc": []
   },
   "spawn_costs": {
+    "alexsmobs:bone_serpent": {
+      "energy_budget": 0.15,
+      "charge": 0.9
+    }
   },
   "precipitation": "none",
   "temperature": 2.0,

@@ -42,6 +42,12 @@
         "weight": 10,
         "minCount": 1,
         "maxCount": 3
+      },
+      {
+        "type": "alexsmobs:soul_vulture",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
       }
     ]
   },
