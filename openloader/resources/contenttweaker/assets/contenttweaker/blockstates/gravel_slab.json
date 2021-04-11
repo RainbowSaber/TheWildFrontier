@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "contenttweaker:block/gravel_slab"
+    },
+    "type=double": {
+      "model": "contenttweaker:block/gravel_slab_double"
+    },
+    "type=top": {
+      "model": "contenttweaker:block/gravel_slab_top"
+    }
+  }
+}

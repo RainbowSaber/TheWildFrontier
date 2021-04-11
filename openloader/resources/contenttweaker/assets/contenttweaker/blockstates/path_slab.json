@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "contenttweaker:block/path_slab"
+    },
+    "type=double": {
+      "model": "contenttweaker:block/path_slab_double"
+    },
+    "type=top": {
+      "model": "contenttweaker:block/path_slab_top"
+    }
+  }
+}

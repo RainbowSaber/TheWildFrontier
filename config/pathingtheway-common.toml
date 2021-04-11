@@ -1,0 +1,24 @@
+
+#Common settings
+[common]
+	#A list of additional pathing behaviors using shovels [Syntax: "domain:block,domain:replacement" ]
+	#[Example: "minecraft:podzol,minecraft:grass_path"]
+	shovelPathing = ["contenttweaker:dirt_slab,contenttweaker:path_slab", "contenttweaker:dirt_stairs,contenttweaker:path_stairs"]
+	#Defines if sneaking is required to do custom pathing using shovels
+	shovelSneaking = false
+	#A list of additional chiseling behaviors using pickaxe's [Syntax: "domain:block,domain:replacement" ]
+	#[Example: "minecraft:stone,minecraft:stone_stairs"]
+	pickaxeChiseling = [""]
+	#Defines if sneaking is required to do custom chiseling using pickaxe's
+	pickaxeSneaking = false
+	#A list of additional stripping behaviors using axe's [Syntax: "domain:block,domain:replacement" ]
+	#[Example: "minecraft:stripped_oak_log,minecraft:oak_planks"]
+	axeStripping = [""]
+	#Defines if sneaking is required to do custom stripping using axe's
+	axeSneaking = false
+	#A list of additional tilling behaviors using hoe's [Syntax: "domain:block,domain:replacement" ]
+	#[Example: "minecraft:podzol,minecraft:farmland"]
+	hoeTilling = [""]
+	#Defines if sneaking is required to do custom tilling using hoe's
+	hoeSneaking = false
+

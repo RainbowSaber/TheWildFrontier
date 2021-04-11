@@ -2,5 +2,13 @@
 	"item.contenttweaker.bun_choc": "Chocolate Bun",
 	"item.contenttweaker.bun_dough": "Chocolate Bun Dough",
 	"item.contenttweaker.donut_choc": "Chocolate Donut",
-	"item.contenttweaker.donut_glazed": "Glazed Donut"
+	"item.contenttweaker.donut_glazed": "Glazed Donut",
+	"block.contenttweaker.dirt_slab": "Dirt Slab",
+	"block.contenttweaker.path_slab": "Path Slab",
+	"block.contenttweaker.path_stairs": "Path Stairs",
+	"block.contenttweaker.dirt_stairs": "Dirt Stairs",
+	"block.contenttweaker.gravel_slab": "Gravel Slab",
+	"block.contenttweaker.gravel_stairs": "Gravel Stairs",
+	"block.contenttweaker.sand_slab": "Sand Slab",
+	"block.contenttweaker.sand_stairs": "Sand Stairs"
 }
