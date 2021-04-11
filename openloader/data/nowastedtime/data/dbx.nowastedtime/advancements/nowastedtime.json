@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "No Wasted Time",
+        "description": {"text":"Stops time on the server when nobody is online."},
+        "icon": {
+            "item": "clock"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:dbtderpbox",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

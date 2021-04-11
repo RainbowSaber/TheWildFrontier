@@ -22,10 +22,6 @@ corundumSheet.add(<item:quark:violet_crystal_pane>);
 corundumSheet.add(<item:quark:white_crystal_pane>);
 corundumSheet.add(<item:quark:black_crystal_pane>);
 
-craftingTable.removeRecipe(<item:betterstorage:master_key>);
-craftingTable.removeRecipe(<item:betterstorage:hex_key>);
-craftingTable.removeRecipe(<item:betterstorage:glass_tank>);
-
 
 craftingTable.addShapeless("wf_cobweb", <item:minecraft:cobweb>,
 		[<item:minecraft:string>, <item:minecraft:string>, <item:minecraft:slime_ball>]
@@ -61,7 +57,7 @@ val tnt = <item:minecraft:tnt>;
 val powder = <item:minecraft:gunpowder>;
 val paper = <item:minecraft:paper>;
 val sand = <item:minecraft:sand>;
-val crate = <item:betterstorage:crate>;
+val crate = <item:minecraft:composter>;
 
 craftingTable.removeRecipe(tnt);
 craftingTable.addShaped("wf_tnt", tnt, [

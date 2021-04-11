@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Posaidon"
+        },
+        "description": {
+            "text": "Defeat the protector of the deep oasis"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/deep_oasis",
+    "criteria": {
+        "kill posaidon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned",
+                    "nbt": "{Tags:[\"posaidon\"]}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

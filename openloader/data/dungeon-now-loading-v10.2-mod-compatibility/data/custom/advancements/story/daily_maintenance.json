@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_nugget"
+    },
+    "title": {
+      "text": "Daily Maintenance"
+    },
+    "description": {
+      "text": "Provide a rest and maintenance to the iron golem by healing them with iron ingots to full health"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "custom:story/forgotten_field_of_flanders",
+  "criteria": {
+    "heal iron golem": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

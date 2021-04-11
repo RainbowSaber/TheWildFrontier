@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cleric's Hideout"
+        },
+        "description": {
+            "text": "Find the hidden laboratory"
+        },
+        "icon": {
+            "item": "minecraft:red_mushroom_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/deep_oasis",
+    "criteria": {
+        "locate clerics hideout": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "New Start!"
+        },
+        "description": {
+            "text": "Dungeon - Now Loading has been installed! Have Fun!"
+        },
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/mossy_cobblestone.png"
+    },
+    "criteria": {
+        "new start": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "values":[
+  "generate:init",
+  "custom:init",
+  "rng:init"
+  ]
+}

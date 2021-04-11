@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": {
+      "text": "Forgotten Field of Flanders"
+    },
+    "description": {
+      "text": "An old field that is filled with serenity and poppies"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "custom:story/gallery_of_illusion",
+  "criteria": {
+    "locate flanders field": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "custom:musics/alpha"
+  }
+}

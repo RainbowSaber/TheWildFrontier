@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "custom:forbiddenfruits/melon_slice"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "melon_slice",
+          "nbt": "{Enchantments:[{}],display:{Name:'{\"italic\":false,\"color\":\"light_purple\",\"text\":\"The Forbidden Melon\"}'}}"
+        }
+      }
+    }
+  }
+}

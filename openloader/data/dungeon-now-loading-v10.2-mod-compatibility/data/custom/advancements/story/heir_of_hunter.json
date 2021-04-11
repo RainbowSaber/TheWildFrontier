@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Heir of Hunter"
+        },
+        "description": {
+            "text": "Pierce the ghost with Broken Bow"
+        },
+        "icon": {
+            "item": "minecraft:bow",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/hunters_grave",
+    "criteria": {
+        "kill hunters ghost with bow": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

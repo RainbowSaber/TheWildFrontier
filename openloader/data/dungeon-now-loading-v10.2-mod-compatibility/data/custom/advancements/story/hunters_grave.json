@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Hunter's Grave"
+        },
+        "description": {
+            "text": "Find a royal grave of a legendary hunter"
+        },
+        "icon": {
+            "item": "minecraft:andesite"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/slime_sinkhole",
+    "criteria": {
+        "locate hunters grave": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

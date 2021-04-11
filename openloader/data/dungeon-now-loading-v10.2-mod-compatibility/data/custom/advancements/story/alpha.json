@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "Alpha",
+    "description": "Music that was long forgotten",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "custom:story/out_of_stock",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:music_disc_strad",
+          "nbt": "{display:{Lore:['{\"text\":\"C418 - Alpha\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32}"
+        }
+      }
+    }
+  }
+}

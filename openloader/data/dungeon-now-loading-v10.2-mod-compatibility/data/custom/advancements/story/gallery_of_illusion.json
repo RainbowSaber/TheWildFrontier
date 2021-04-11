@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Gallery of Illusions"
+        },
+        "description": {
+            "text": "Locate the mega mansion of the roofed forest and taiga"
+        },
+        "icon": {
+            "item": "minecraft:redstone_lamp"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/crawlers_lair",
+    "criteria": {
+        "locate gallery of illusion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

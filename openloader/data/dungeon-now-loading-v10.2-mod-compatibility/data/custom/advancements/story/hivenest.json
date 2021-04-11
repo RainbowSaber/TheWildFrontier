@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Hivenest"
+        },
+        "description": {
+            "text": "Sneak into queen's nest"
+        },
+        "icon": {
+            "item": "minecraft:bee_nest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/new_start",
+    "criteria": {
+        "locate hivenest": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

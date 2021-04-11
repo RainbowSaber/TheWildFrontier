@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs",
+    "#minecraft:flowers",
+    "#minecraft:leaves",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:cactus",
+    "minecraft:vine",
+    "minecraft:lily_pad",
+    "minecraft:air",
+    "minecraft:snow",
+    "minecraft:dead_bush"
+  ]
+}

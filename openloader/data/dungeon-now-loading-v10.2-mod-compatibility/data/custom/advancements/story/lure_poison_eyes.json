@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Lair's Pedestal"
+        },
+        "description": {
+            "text": "Lure the poisoned eyed crawler by placing the queen's nest on the pedestal"
+        },
+        "icon": {
+            "item": "minecraft:chiseled_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/crawlers_lair",
+    "criteria": {
+        "crawlers lair pedestal": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lead"
+    },
+    "title": "To Remember the Unfair Trade",
+    "description": "Trade the over priced poppy from the wandering trader",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "custom:story/forgotten_field_of_flanders",
+  "criteria": {
+    "to remember the unfair trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {},
+        "item": {
+          "item": "minecraft:poppy"
+        }
+      }
+    }
+  }
+}

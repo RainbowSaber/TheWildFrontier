@@ -1,0 +1,3 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:apple",tag:{Enchantments:[{}],display:{Name:'{"italic":false,"color":"light_purple","text":"The Forbidden Apple"}'}}}}] run function custom:health/texthealthlist
+execute as @a[nbt={SelectedItem:{id:"minecraft:sweet_berries",tag:{Enchantments:[{}],display:{Name:'{"italic":false,"color":"light_purple","text":"The Forbidden Berries"}'}}}}] run function custom:health/texthealthlist
+execute as @a[nbt={SelectedItem:{id:"minecraft:melon_slice",tag:{Enchantments:[{}],display:{Name:'{"italic":false,"color":"light_purple","text":"The Forbidden Melon"}'}}}}] run function custom:health/texthealthlist

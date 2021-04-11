@@ -14,9 +14,9 @@
 	#Range: 1 ~ 1000
 	"Deletion Time" = 10
 	#Defines if the pregenerator should automatically restart on server start. Automatically set to true when a task is running, and automatically set to false if no task is running
-	auto-restart = false
+	auto-restart = true
 	#Defines if the Profiler should run in the background or not
-	enable-profiler = false
+	enable-profiler = true
 
 [client]
 

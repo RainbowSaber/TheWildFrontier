@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Railway Outpost"
+        },
+        "description": {
+            "text": "Railway abducted by the crossbow barbarians!"
+        },
+        "icon": {
+            "item": "minecraft:acacia_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/clerics_hideout",
+    "criteria": {
+        "locate railway outpost": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

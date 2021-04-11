@@ -58,7 +58,6 @@ craftingTable.removeByName("minecraft:pumpkin_pie");
 craftingTable.addShapeless("wf_pumpkinpie", piePumpkin, [pieCrust, egg, pumpkinSlice]);
 <recipetype:create:mixing>.addRecipe("wf_pumpkinpie_autocraft", "none", piePumpkin, [pieCrust, egg, pumpkinSlice]);
 
-craftingTable.removeByName("betterstorage:cake");
 craftingTable.removeByName("farmersdelight:cake_from_milk_bottle");
 craftingTable.removeByName("minecraft:cake");
 craftingTable.addShaped("wf_piecake", pieCake, [

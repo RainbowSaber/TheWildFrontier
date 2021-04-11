@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "custom:forbiddenfruits/sweet_berries"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "sweet_berries",
+          "nbt": "{Enchantments:[{}],display:{Name:'{\"italic\":false,\"color\":\"light_purple\",\"text\":\"The Forbidden Berries\"}'}}"
+        }
+      }
+    }
+  }
+}

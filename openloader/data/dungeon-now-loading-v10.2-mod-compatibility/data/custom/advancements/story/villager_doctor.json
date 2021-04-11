@@ -1,0 +1,44 @@
+{
+    "display": {
+        "title": {
+            "text": "Villager Doctor"
+        },
+        "description": {
+            "text": "Weaken and then cure Cleric \"Z\""
+        },
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/clerics_hideout",
+    "criteria": {
+        "cure cleric z": {
+            "trigger": "minecraft:cured_zombie_villager",
+            "conditions": {
+              "villager": {
+                  "type": "minecraft:villager",
+                  "distance": {
+                      "absolute": {
+                          "min": 0,
+                          "max": 64
+                      }
+                  }
+              },
+              "zombie": {
+                  "type": "minecraft:zombie",
+                    "nbt": "{Tags:[\"cleric_z\"]}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

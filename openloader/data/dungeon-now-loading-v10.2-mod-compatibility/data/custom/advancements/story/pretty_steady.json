@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "text": "Pretty Steady"
+    },
+    "description": {
+      "text": "Gather irons. And then craft all of the Golem Heart Armor pieces!"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "custom:story/iron_heart",
+  "criteria": {
+    "craft golem heart armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_helmet",
+            "nbt": "{display:{Name:'{\"text\":\"Golem Heart Helmet\",\"color\":\"gold\",\"italic\":false}'}}"
+          },
+          {
+            "item": "minecraft:iron_boots",
+            "nbt": "{display:{Name:'{\"text\":\"Golem Heart Boots\",\"color\":\"gold\",\"italic\":false}'}}"
+          },
+          {
+            "item": "minecraft:iron_leggings",
+            "nbt": "{display:{Name:'{\"text\":\"Golem Heart Leggings\",\"color\":\"gold\",\"italic\":false}'}}"
+          },
+          {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{display:{Name:'{\"text\":\"Golem Heart Chestplate\",\"color\":\"gold\",\"italic\":false}'}}"
+          }
+        ]
+      }
+    }
+  }
+}

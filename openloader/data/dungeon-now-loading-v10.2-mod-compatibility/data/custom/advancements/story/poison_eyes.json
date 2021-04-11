@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Posion Eyes"
+        },
+        "description": {
+            "text": "Squash the small eight eyes!"
+        },
+        "icon": {
+            "item": "minecraft:spider_eye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/lure_poison_eyes",
+    "criteria": {
+        "kill poison eyes": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cave_spider",
+                    "nbt": "{Tags:[\"dnl.poison_eyes\"]}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -11,13 +11,13 @@
     "vanillaLakes": false,
     "vanillaSprings": true,
     "vanillaLavaLakes": true,
-    "vanillaLavaSprings": true,
+    "vanillaLavaSprings": false,
     "mountainBiomeUsage": 0.4,
     "volcanoBiomeUsage": 0.4
   },
   "dimensions": {
     "bedrockLayer": {
-      "material": "minecraft:obsidian",
+      "material": "minecraft:bedrock",
       "minDepth": 1,
       "variance": 2
     },
@@ -30,7 +30,7 @@
   "structures": {
     "stronghold": {
       "distance": 24,
-      "spread": 5,
+      "spread": 24,
       "count": 191,
       "salt": 1016134600,
       "constrainToBiomes": false,
@@ -39,8 +39,14 @@
     "structures": {
       "bettermineshafts:mineshaft": {
         "spacing": 14,
-        "separation": 0,
+        "separation": 13,
         "salt": 593751808,
+        "disabled": false
+      },
+      "conjurer_illager:theatre": {
+        "spacing": 22,
+        "separation": 13,
+        "salt": 257857,
         "disabled": false
       },
       "minecraft:buried_treasure": {
@@ -68,14 +74,14 @@
         "disabled": false
       },
       "minecraft:mansion": {
-        "spacing": 52,
+        "spacing": 42,
         "separation": 20,
         "salt": 10387319,
         "disabled": false
       },
       "minecraft:monument": {
-        "spacing": 32,
-        "separation": 5,
+        "spacing": 22,
+        "separation": 18,
         "salt": 10387313,
         "disabled": false
       },
@@ -116,7 +122,7 @@
         "disabled": false
       },
       "quark:big_dungeon": {
-        "spacing": 20,
+        "spacing": 12,
         "separation": 11,
         "salt": 79234824,
         "disabled": false
@@ -128,8 +134,8 @@
         "disabled": false
       },
       "valhelsia_structures:castle_ruin": {
-        "spacing": 32,
-        "separation": 8,
+        "spacing": 19,
+        "separation": 18,
         "salt": 14357618,
         "disabled": false
       },
@@ -158,8 +164,8 @@
         "disabled": false
       },
       "valhelsia_structures:tower_ruin": {
-        "spacing": 34,
-        "separation": 8,
+        "spacing": 27,
+        "separation": 13,
         "salt": 24357670,
         "disabled": false
       }
@@ -285,16 +291,16 @@
     "riverCount": 10,
     "mainRivers": {
       "bedDepth": 6,
-      "minBankHeight": 2,
-      "maxBankHeight": 5,
+      "minBankHeight": 1,
+      "maxBankHeight": 4,
       "bedWidth": 12,
-      "bankWidth": 22,
+      "bankWidth": 21,
       "fade": 0.75
     },
     "branchRivers": {
       "bedDepth": 4,
-      "minBankHeight": 1,
-      "maxBankHeight": 4,
+      "minBankHeight": 0,
+      "maxBankHeight": 3,
       "bedWidth": 5,
       "bankWidth": 14,
       "fade": 0.975

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Watcher Camp"
+        },
+        "description": {
+            "text": "Freezing campsite watched under the silver eyes!"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/railway_outpost",
+    "criteria": {
+        "locate watcher camp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

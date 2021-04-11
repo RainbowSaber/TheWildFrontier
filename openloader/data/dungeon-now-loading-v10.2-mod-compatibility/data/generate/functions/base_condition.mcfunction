@@ -1,0 +1,26 @@
+execute at @s run spreadplayers ~ ~ 0 1 false @s
+execute at @s unless block ~ ~ ~ #generate:base_blocks run tp @s ~ ~20 ~
+execute at @s unless block ~ ~ ~ #generate:base_blocks run tp @s ~ ~20 ~
+execute at @s unless block ~ ~ ~ #generate:base_blocks run tp @s ~ ~20 ~
+execute at @s unless block ~ ~ ~ #generate:base_blocks run tp @s ~ ~20 ~
+execute at @s unless block ~ ~ ~ #generate:base_blocks run tp @s ~ ~20 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~
+execute at @s if block ~ ~-1 ~ #generate:base_blocks run tp @s ~ ~-1 ~

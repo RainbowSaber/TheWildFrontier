@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Slime Core"
+        },
+        "description": {
+            "text": "Destroy the Slime Core"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "custom:story/slime_sinkhole",
+    "criteria": {
+        "kill slime core": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Size:13}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

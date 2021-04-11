@@ -1,0 +1,11 @@
+execute as @a[advancements={custom:story/hivenest=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:yellow_wool run advancement grant @s only custom:story/hivenest
+execute as @a[advancements={custom:story/slime_sinkhole=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:lime_wool run advancement grant @s only custom:story/slime_sinkhole
+execute as @a[advancements={custom:story/hunters_grave=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:gray_wool run advancement grant @s only custom:story/hunters_grave
+execute as @a[advancements={custom:story/deep_oasis=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:blue_wool run advancement grant @s only custom:story/deep_oasis
+execute as @a[advancements={custom:story/clerics_hideout=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:purple_wool run advancement grant @s only custom:story/clerics_hideout
+execute as @a[advancements={custom:story/railway_outpost=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:orange_wool run advancement grant @s only custom:story/railway_outpost
+execute as @a[advancements={custom:story/watcher_camp=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:brown_wool run advancement grant @s only custom:story/watcher_camp
+execute as @a[advancements={custom:story/crawlers_lair=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:green_wool run advancement grant @s only custom:story/crawlers_lair
+execute as @a[advancements={custom:story/gallery_of_illusion=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:magenta_wool run advancement grant @s only custom:story/gallery_of_illusion
+execute as @a[advancements={custom:story/hivenest_rabbithole=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:white_wool run advancement grant @s only custom:story/hivenest_rabbithole
+execute as @a[advancements={custom:story/forgotten_field_of_flanders=false}] at @s if block ~ 0 ~ minecraft:white_wool if block ~ 1 ~ minecraft:red_wool run advancement grant @s only custom:story/forgotten_field_of_flanders
