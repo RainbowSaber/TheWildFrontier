@@ -108,6 +108,12 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "alexsmobs:bone_serpent",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "creature": [
@@ -124,7 +130,6 @@
     "misc": []
   },
   "spawn_costs": {
-
     "minecraft:phantom": {
       "energy_budget": 0.15,
       "charge": 0.7

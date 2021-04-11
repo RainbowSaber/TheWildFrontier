@@ -83,7 +83,12 @@
       }
     ]
   },
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecraft:wither": {
+      "energy_budget": 0.4,
+      "charge": 2.3
+    }
+  },
   "carvers": {
     "air": [
       "far_end:end_carver"
