@@ -1,20 +1,44 @@
+# IDE, editor
 /.idea/
 /.mixin.out/audit/
+/.vscode/
+
+#logs
+/logs/
+/crash-reports/
+/dumps/
+/hs_err_pid5808.log
+
+#multimc
+/minecraftinstance.json
+icon.png
+
+#curse
+/.curseclient
+
+#minecraft saves
+/backups/
+/schematics/
+/saves/
+/screenshots/
+
+#minecraft settings
+knownkeys.txt
+options.txt
+servers.dat
+
+#personal mod configs
+reauth.toml
+
+#global resource and datapacks
+/global_resource_packs/
+/global_data_packs_/
+
+#other
 /local/
 /patchouli_data.json
 /imm_ptl_state.json
-/hs_err_pid5808.log
-/minecraftinstance.json
 /realms_persistence.json
 /usernamecache.json
-/.curseclient
 /usercache.json
-/dumps/
-/global_resource_packs/
-/global_data_packs_/
-/crash-reports/
-/saves/
-/screenshots/
-/logs/
-/backups/
 /resourcepacks/Quark Programmer Art.zip
